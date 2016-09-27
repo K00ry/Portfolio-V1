@@ -1,0 +1,1 @@
+$(function(){for(var e=new ScrollMagic.Controller,o=document.querySelectorAll("section.panel"),n=0;n<o.length;n++)new ScrollMagic.Scene({triggerElement:o[n],triggerHook:0}).setPin(o[n]).addIndicators().addTo(e);var t=document.getElementById("port-link"),l=document.getElementById("portfolio");t.onclick=function(e){e.preventDefault(),TweenLite.to($(window),1,{scrollTo:l})}});

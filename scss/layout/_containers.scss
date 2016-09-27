@@ -1,0 +1,17 @@
+.container {
+	@include flex-display(flex,column,space-between,100%,center);
+	
+	margin: auto;
+	h1{
+		text-align: center;
+		@include font-fam-size(5em,$main-font-5,bold,#5B5B5B );
+
+	}
+	p{
+		@include font-fam-size(2em,$main-font-5,bold,#5B5B5B );
+
+	}
+	
+}
+
+
