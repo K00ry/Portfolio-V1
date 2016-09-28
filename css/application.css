@@ -373,48 +373,45 @@ ol {
   padding: 0;
   list-style: none; }
 
-.page {
+.panel {
   height: 100vh;
-  width: 100%; }
-
-body {
-  overflow: scroll; }
-
-.first {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100%;
-  align-items: center;
+  margin-bottom: 40px; }
+
+#home {
   background-image: url("../img/Asset 1.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.seconed {
-  width: 100%;
-  height: 100%;
+#portfolio {
   background-image: url("../img/2.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.third {
-  width: 100%;
-  height: 100%;
+#about {
   background-image: url("../img/3.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.forth {
-  width: 100%;
-  height: 100%;
+#contact {
   background-image: url("../img/4.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.page {
+  height: 100%; }
+
+.jasem {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
 
 .container {
   display: flex;

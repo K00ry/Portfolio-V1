@@ -1,23 +1,29 @@
-.first {
+#home {
+
 	
-	height:100%;
-	@include flex-display(flex,column,space-between,100%,center);
+
     @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
    
 }
-.seconed{
-	width: 100%;
-	height:100%;
+#portfolio{
+
     @include background("../img/2.jpg", 50% 50%, no-repeat, cover);
 }
-.third{
-	width: 100%;
-	height:100%;
+#about{
+	
     @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
 }
-.forth{
-	width: 100%;
-	height:100%;
+#contact{
+	
     @include background("../img/4.jpg", 50% 50%, no-repeat, cover);
+}
+.page{
+
+	height: 100%;
+}
+
+.jasem{
+	height: 100%;
+	@include flex-display(flex,column,space-between,100%,center);
 }
 
