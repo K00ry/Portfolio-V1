@@ -1,29 +1,22 @@
 #home {
-
-	
-
+    @include flex-display(flex, column, space-between, 100%, center);
     @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
-   
 }
-#portfolio{
 
+#portfolio {
     @include background("../img/2.jpg", 50% 50%, no-repeat, cover);
 }
-#about{
-	
+
+#about {
     @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
 }
-#contact{
-	
+
+#contact {
     @include background("../img/4.jpg", 50% 50%, no-repeat, cover);
 }
-.page{
 
-	height: 100%;
+.page {
+    height: 100%;
 }
 
-.jasem{
-	height: 100%;
-	@include flex-display(flex,column,space-between,100%,center);
-}
 

@@ -375,10 +375,14 @@ ol {
 
 .panel {
   height: 100vh;
-  width: 100%;
-  margin-bottom: 40px; }
+  width: 100%; }
 
 #home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
   background-image: url("../img/Asset 1.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -404,14 +408,6 @@ ol {
 
 .page {
   height: 100%; }
-
-.jasem {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center; }
 
 .container {
   display: flex;
