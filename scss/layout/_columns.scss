@@ -1,22 +1,38 @@
 #home {
-    @include flex-display(flex, column, space-between, 100%, center);
+    	@include flex-display(flex, column, space-between, 100%, center);
     @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
+    height: 100vh;
 }
 
 #portfolio {
-    @include background("../img/2.jpg", 50% 50%, no-repeat, cover);
+    @include background("../img/5.jpg", center bottom, no-repeat, cover);
+ height: 100vh;
 }
+// #parallax1 {
+//     @include background("../img/5.jpg", center bottom, no-repeat, cover);
+
+// }
+// 	#parallax1 {
+// 		height: 100vh;
+// 		overflow: hidden;
+// 	}
+// 	#parallax1 > * {
+// 		height: 200%;
+// 		position: relative;
+// 		top: -100%;
+// 	}
 
 #about {
     @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
+    // display:none;
+    height: 100vh;
 }
 
 #contact {
     @include background("../img/4.jpg", 50% 50%, no-repeat, cover);
+    // display:none;
+    height: 100vh;
 }
 
-.page {
-    height: 100%;
-}
 
 

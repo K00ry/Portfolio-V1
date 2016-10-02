@@ -1,17 +1,49 @@
-.container {
-	@include flex-display(flex,column,space-between,100%,center);
-	
-	margin: auto;
-	h1{
-		text-align: center;
-		@include font-fam-size(5em,$main-font-5,bold,#5B5B5B );
-
-	}
-	p{
-		@include font-fam-size(2em,$main-font-5,bold,#5B5B5B );
-
-	}
-	
+#home-wrap {
+    @include flex-display(flex, column, space-between, 100%, center);
+    margin: auto;
+    h1 {
+        text-align: center;
+        @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
+    }
+    p {
+        @include font-fam-size(2em, $main-font-5, bold, #5B5B5B);
+    }
 }
 
+#projects {
+    @include flex-display(flex, column, space-around, 94%, center);
+    margin: auto;
+    h1 {
+        @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
+        
+    }
+    .works {
+        @include flex-display(flex, column, space-between, auto, center);
+        padding: 10px 0;
+        img {
+            height: 120px;
+            width: 120px;
+            border-radius: 20px;
+        }
+    }
+}
 
+#mobile-portfolio {
+    @include flex-display(flex, row, space-around, 100%, center);
+    flex-wrap: wrap;
+    .last{
+    	margin-left: 200px;
+
+    }
+    .work-mobile {
+    	margin: 10px auto ;
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+    @include media(tablet) {
+        display: none;
+    }
+}
