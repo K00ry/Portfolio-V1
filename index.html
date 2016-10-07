@@ -8,12 +8,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Bevan|Changa+One|Six+Caps" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mb.YTPlayer.min.css">
     <link rel="stylesheet" type="text/css" href="css/application.css">
     <title>Kourosh Mirzaei - Portfolio</title>
 </head>
 
 <body>
+    <!--    Caroosel  -->
+    <div id="P1" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UYjJLjxeVG0',containment:'#home',startAt:0,mute:true,autoPlay:true,loop:true,opacity:0.1, addRaster:false,showYTLogo: false}">
+    </div>
+    <!-- carosel end -->
     <nav class="navbar navbar-fixed-top navbar-light bg-faded navigation-bar is-visible" data-nav-status="toggle">
         <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
             ☰
@@ -37,32 +41,55 @@
     </nav>
     <!--  -->
     <div id="overlay" class="overlay overlay-contentscale">
-            <h1 id="title"></h1>
-            <img id="over-img" src="#">
+        <h1 id="title"></h1>
+        <div class="lay-img"><img id="over-img" src="#">
             <p id="info-text"></p>
-            <ul id="techs"></ul>
-            <a id="github-link" href="#"></a>
-
+        </div>
+        <ul id="techs"></ul>
+        <div class="lay-link"> <a id="demo" href="#"></a></div>
+       
     </div>
     <!--  -->
     <div id="pinContainer">
         <div id="home" class="panel first">
             <div id="home-wrap">
-                <h1>Kourosh Mirzaei</h1>
-                <p>Front End Developer.</p>
+                <h1 class="main-meme">Kourosh Mirzaei</h1>
+                <p class="main-meme">Front End Developer.</p>
             </div>
         </div>
         <div id="portfolio" class="panel second">
             <div id="projects">
-                <h1>Portfolio</h1>
+                <h1 class="port-head">Portfolio</h1>
                 <div id="mobile-portfolio">
-                    <div class="work-mobile"> <img src="img/work/tablet/1.png"></div>
-                    <div class="work-mobile"> <img src="img/work/tablet/2.png"></div>
-                    <div class="work-mobile"> <img src="img/work/tablet/3.png"></div>
-                    <div class="work-mobile"> <img src="img/work/tablet/4.png"></div>
-                    <div class="work-mobile last"> <img src="img/work/tablet/5.png"></div>
+                    <div class="work-mobile work-desktop"> <img src="img/work/tablet/1.png">
+                        <h3 class="caption">WEB API</h3>
+                    </div>
+                    <div class="work-mobile work-desktop"> <img src="img/work/tablet/2.png">
+                        <h3 class="caption">WEB APP</h3>
+                    </div>
+                    <div class="work-mobile work-desktop"> <img src="img/work/tablet/3.png">
+                        <h3 class="caption">Responsive Layout</h3>
+                    </div>
+                    <div class="work-mobile work-desktop"> <img src="img/work/tablet/4.png">
+                        <h3 class="caption">Interactive Video Player</h3>
+                    </div>
+                    <div class="work-mobile work-desktop last"> <img src="img/work/tablet/5.png">
+                        <h3 class="caption">Registration Form</h3>
+                    </div>
                 </div>
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div id="overlay-desktop">
+                   <img class="img-ov" src="img/work/responsive/2.png">
+                    <div class="title-tech-ov">
+                     <h1  class="title-ov">WEB_APP</h1>
+                     <ul class="tech-ov"><li class="tech-title"><img src="img/work/logos/html.png"></li><li class="tech-title"><img src="img/work/logos/sass.svg"></li><li class="tech-title"><img src="img/work/logos/js.png"></li><li class="tech-title"><img src="img/work/logos/Jquery.png"></li><li class="tech-title"><img src="img/work/logos/git.svg"></li></ul>
+                     </div>
+                        <p  class="info-ov">This project was about building a beautiful web application dashboard complete with JavaScript-driven charts and graphs base on a suplied graphic mockup. This was a front end project onlythat required to create the responsive layout in HTML and CSS with added JavaScript functionality. Flexbox and Sass proved to be invaluable tools.</p>
+                    
+                    <div class="links">
+                    <a class="git-ov" href="">Github</a>
+                    <a class="demo-ov" href="https://k00ry.github.io/web_app_dashboard_v2/">DEMO</a></div>
+                </div>
+                <!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -72,7 +99,7 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img src="img/work/responsive/1-4.png" alt="First slide">
+                            <img src="img/work/responsive/1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
                             <a href=""></a>
@@ -101,28 +128,20 @@
                     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                         <span class="icon-next" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
-                </div>
+                    </a> -->
             </div>
         </div>
-        <div id="about" class="panel third">
+    </div>
+    <!--  <div id="about" class="panel third">
+            <h1>jasem Mirzaei</h1>
         </div>
         <div id="contact" class="panel fourth">
-        </div>
+        </div> -->
     </div>
-    <!--     <script src="node_modules/jQuery/dist/jquery.min.js"></script>
-    <script src="node_modules/jquery.scrollto/jquery.scrollTo.min.js"></script>
-    <script src="node_modules/jquery.localscroll/jquery.localScroll.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js "></script>
-    <script src="node_modules/greensock-js/src/minified/TweenMax.min.js"></script>
-    <script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
-    <script src="js/main.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script data-main="config" src="require.js"></script>
 </body>
 

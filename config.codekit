@@ -22,11 +22,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/jquery.fullpage.min.css": {
+	"\/css\/jquery.mb.YTPlayer.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/jquery.fullpage.min.css",
+		"inputAbbreviatedPath": "\/css\/jquery.mb.YTPlayer.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -196,6 +196,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/logos\/css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9920,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/css.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/css3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5607,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/css3.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/css3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8822,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/html.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/html.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/html5-css3-js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22564,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/html5-css3-js.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/html5-css3-js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/javascript.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7518,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/javascript.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/javascript.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/jquery.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11928,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/jquery.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/jquery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9030,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/js.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/kos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6907,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/kos.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/kos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/o.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8736,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/o.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/o.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/mobile\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -251,68 +350,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/responsive\/1-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/work\/responsive\/1-1.png",
-		"outputAbbreviatedPath": "\/img\/work\/responsive\/1-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/responsive\/1-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 91814,
-		"inputAbbreviatedPath": "\/img\/work\/responsive\/1-2.png",
-		"outputAbbreviatedPath": "\/img\/work\/responsive\/1-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/responsive\/1-3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 85977,
-		"inputAbbreviatedPath": "\/img\/work\/responsive\/1-3.png",
-		"outputAbbreviatedPath": "\/img\/work\/responsive\/1-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/responsive\/1-4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 91625,
-		"inputAbbreviatedPath": "\/img\/work\/responsive\/1-4.png",
-		"outputAbbreviatedPath": "\/img\/work\/responsive\/1-4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/work\/responsive\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92885,
+		"initialSize": 91609,
 		"inputAbbreviatedPath": "\/img\/work\/responsive\/1.png",
 		"outputAbbreviatedPath": "\/img\/work\/responsive\/1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/responsive\/2-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40273,
-		"inputAbbreviatedPath": "\/img\/work\/responsive\/2-1.png",
-		"outputAbbreviatedPath": "\/img\/work\/responsive\/2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -321,9 +365,42 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 39249,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/work\/responsive\/2.png",
 		"outputAbbreviatedPath": "\/img\/work\/responsive\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/responsive\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210359,
+		"inputAbbreviatedPath": "\/img\/work\/responsive\/3.png",
+		"outputAbbreviatedPath": "\/img\/work\/responsive\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/responsive\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/work\/responsive\/4.png",
+		"outputAbbreviatedPath": "\/img\/work\/responsive\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/responsive\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/work\/responsive\/5.png",
+		"outputAbbreviatedPath": "\/img\/work\/responsive\/5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -425,12 +502,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jquery.fullpage.min.js": {
+	"\/js\/jquery.mb.YTPlayer.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.fullpage.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.fullpage.min-min.js",
+		"inputAbbreviatedPath": "\/js\/jquery.mb.YTPlayer.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.mb.YTPlayer.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -480,12 +557,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/TweenLite.js": {
+	"\/js\/TweenLite.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/TweenLite.js",
-		"outputAbbreviatedPath": "\/js\/min\/TweenLite-min.js",
+		"inputAbbreviatedPath": "\/js\/TweenLite.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/TweenLite.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

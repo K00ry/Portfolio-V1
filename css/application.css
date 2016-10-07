@@ -373,11 +373,26 @@ ol {
   padding: 0;
   list-style: none; }
 
+.carousel-control.right {
+  background-image: none; }
+
+.carousel-control.left {
+  background-image: none; }
+
 #carousel-example-generic {
   display: none; }
   @media (min-width: 768px) {
     #carousel-example-generic {
       display: block; } }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333; }
+
+.nav-link {
+  font-size: 2em;
+  font-family: "Six Caps", sans-serif;
+  font-weight: bold;
+  color: #333333; }
 
 .overlay-contentscale.open {
   visibility: visible;
@@ -396,23 +411,88 @@ ol {
 #overlay {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   align-items: center;
   position: fixed;
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(204, 204, 204, 0.9);
   z-index: 1; }
+  @media (min-width: 768px) {
+    #overlay {
+      display: none; } }
   #overlay h1 {
-    font-size: 2em;
+    width: 100%;
+    background-color: #000000;
+    font-size: 4em;
     font-family: "Six Caps", sans-serif;
     font-weight: bold;
-    color: #5B5B5B; }
-  #overlay img {
-    width: 300px;
-    height: 300px; }
+    color: #EBEBEB;
+    margin: 10px auto;
+    text-align: center; }
+  #overlay .lay-img {
+    height: auto;
+    padding: 30px 0; }
+    #overlay .lay-img img {
+      background-color: #CCCCCC;
+      width: 100%;
+      max-width: 400px; }
+    #overlay .lay-img p {
+      font-size: 0.8em;
+      font-family: "Bevan", cursive;
+      font-weight: 200;
+      color: #000;
+      width: 80%;
+      text-align: center;
+      margin: auto; }
+  #overlay ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-size: 0.7em;
+    font-family: "Bevan", cursive;
+    font-weight: bold;
+    color: #EBEBEB; }
+    #overlay ul .tech-title img {
+      width: 50px;
+      height: 50px; }
+
+#overlay-desktop {
+  display: none; }
+  @media (min-width: 768px) {
+    #overlay-desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 90%;
+      align-items: center; }
+      #overlay-desktop img {
+        width: 100%;
+        height: auto; }
+      #overlay-desktop .title-tech-ov {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%; }
+        #overlay-desktop .title-tech-ov .title-ov {
+          font-size: 2.5em;
+          font-family: "Six Caps", sans-serif;
+          font-weight: bold;
+          color: #333333; }
+        #overlay-desktop .title-tech-ov ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          width: 90%;
+          align-items: center; }
+        #overlay-desktop .title-tech-ov img {
+          width: 35px;
+          height: 40px;
+          margin: 0 4px; } }
 
 #home {
   display: flex;
@@ -425,20 +505,27 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh; }
+  @media (min-width: 768px) {
+    #home {
+      background: none; } }
 
 #portfolio {
-  background-image: url("../img/5.jpg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh; }
 
 #about {
-  background-image: url("../img/3.jpg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
   height: 100vh; }
+  #about h1 {
+    margin: auto;
+    font-size: 4em;
+    font-family: "Six Caps", sans-serif;
+    font-weight: bold;
+    color: #EBEBEB;
+    transition: all 1s; }
 
 #contact {
   background-image: url("../img/4.jpg");
@@ -477,7 +564,8 @@ ol {
     font-size: 5em;
     font-family: "Six Caps", sans-serif;
     font-weight: bold;
-    color: #5B5B5B; }
+    color: #5B5B5B;
+    margin: 10px auto; }
   #projects .works {
     display: flex;
     flex-direction: column;
@@ -491,6 +579,7 @@ ol {
       border-radius: 20px; }
 
 #mobile-portfolio {
+  opacity: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -500,14 +589,31 @@ ol {
   #mobile-portfolio .last {
     margin-left: 200px; }
   #mobile-portfolio .work-mobile {
-    margin: 10px auto; }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px auto; }
+    @media (min-width: 768px) {
+      #mobile-portfolio .work-mobile {
+        width: 20%; } }
     #mobile-portfolio .work-mobile img {
-      width: 150px;
-      height: 150px;
+      width: 130px;
+      height: 130px;
       border-radius: 50%; }
-  @media (min-width: 768px) {
-    #mobile-portfolio {
-      display: none; } }
+      @media (min-width: 768px) {
+        #mobile-portfolio .work-mobile img {
+          width: 100px;
+          height: 100px; } }
+    #mobile-portfolio .work-mobile .caption {
+      font-size: 0.7em;
+      font-family: "Bevan", cursive;
+      font-weight: bold;
+      color: #383838;
+      margin: 10px 0; }
+
+#carousel-example-generic {
+  opacity: 0; }
 
 .navbar {
   background: transparent;

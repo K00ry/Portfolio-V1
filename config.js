@@ -2,14 +2,16 @@ requirejs.config({
 
     baseUrl: 'js',
     paths: {
-        tweenmax: 'TweenMax.min',
+        
+        tweenmax: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min',
         jquery: 'jquery.min',
+        background: 'jquery.mb.YTPlayer.min',
         scrollmagic: 'ScrollMagic.min',
         indicator: 'debug.addIndicators.min',
         tether: 'tether',
         bootstrap: 'bootstrap.min',
         gsap: 'animation.gsap.min',
-        tweenlite: 'TweenLite',
+        tweenlite: 'TweenLite.min',
         cssplugin: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min',
         scrollto: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min'
 
