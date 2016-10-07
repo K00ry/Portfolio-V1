@@ -207,17 +207,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/logos\/css3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5607,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/css3.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/css3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/work\/logos\/html.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -225,28 +214,6 @@
 		"initialSize": 8822,
 		"inputAbbreviatedPath": "\/img\/work\/logos\/html.png",
 		"outputAbbreviatedPath": "\/img\/work\/logos\/html.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/html5-css3-js.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22564,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/html5-css3-js.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/html5-css3-js.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/javascript.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7518,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/javascript.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/javascript.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -269,28 +236,6 @@
 		"initialSize": 9030,
 		"inputAbbreviatedPath": "\/img\/work\/logos\/js.png",
 		"outputAbbreviatedPath": "\/img\/work\/logos\/js.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/kos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6907,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/kos.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/kos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/o.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8736,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/o.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/o.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
