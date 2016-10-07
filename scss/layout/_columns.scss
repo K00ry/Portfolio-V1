@@ -1,12 +1,19 @@
 #home {
     	@include flex-display(flex, column, space-between, 100%, center);
-    @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
+     @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
     height: 100vh;
+    @include media(tablet) {
+             background:none;
+           }
 }
 
 #portfolio {
-    @include background("../img/5.jpg", center bottom, no-repeat, cover);
+    
  height: 100vh;
+
+ @include media(tablet) {
+             // @include background("../img/5.jpg", center bottom, no-repeat, cover);
+           }
 }
 // #parallax1 {
 //     @include background("../img/5.jpg", center bottom, no-repeat, cover);
@@ -23,9 +30,16 @@
 // 	}
 
 #about {
-    @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
+	@include flex-display(flex, column, space-between, 100%, center);
+    // @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
     // display:none;
     height: 100vh;
+
+    h1{
+    	margin: auto;
+		@include font-fam-size(4em, $main-font-5, bold, #EBEBEB);
+		    transition: all 1s;
+	}
 }
 
 #contact {

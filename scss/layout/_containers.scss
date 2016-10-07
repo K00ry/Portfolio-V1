@@ -15,7 +15,7 @@
     margin: auto;
     h1 {
         @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
-        
+        margin: 10px auto;
     }
     .works {
         @include flex-display(flex, column, space-between, auto, center);
@@ -29,21 +29,35 @@
 }
 
 #mobile-portfolio {
+    opacity: 0;
     @include flex-display(flex, row, space-around, 100%, center);
     flex-wrap: wrap;
-    .last{
-    	margin-left: 200px;
-
+    .last {
+        margin-left: 200px;
     }
     .work-mobile {
-    	margin: 10px auto ;
+        @include flex-display(flex, column, space-around, $align: center);
+        margin: 5px auto;
+         @include media(tablet) {
+         	width: 20%;
+         }
         img {
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
+            @include media(tablet) {
+            	width: 100px;
+            height: 100px;
+            }
+        }
+        .caption {
+            @include font-fam-size(.7em, $main-font-3, bold, #383838);
+            margin: 10px 0;
         }
     }
-    @include media(tablet) {
-        display: none;
-    }
+    // @include media(tablet) {}
+}
+
+#carousel-example-generic {
+    opacity: 0;
 }
