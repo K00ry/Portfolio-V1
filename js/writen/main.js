@@ -1,15 +1,14 @@
-define(['jquery', 'background'], function($, YTPlayer) {
 
 
 
 
-    var portofilo_h1 = $('.port-head');
-    var overlay_desktop = $('#overlay-desktop');
+define(['jquery', 'background'], function($,YTPlayer) {
+
+   
 
 
     //////// header animation \\\\\\\
 
-    $("#P1").YTPlayer();
 
     var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: .5 });
 
@@ -97,7 +96,11 @@ define(['jquery', 'background'], function($, YTPlayer) {
 
 
 
+     var portofilo_h1 = $('.port-head');
+    var overlay_desktop = $('#overlay-desktop');
 
+
+    $("#P1").YTPlayer();
 
     /////////////////smoooth Navigation\\\\\\\\\\\\\\\\\\\\\\
 
@@ -108,7 +111,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
     // target_contact = $('#contact').offset().top;
 
 
-
+ 
 
 
     $("#home-link").click(function() {
@@ -132,6 +135,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
 
 
 
+});
 
 
     ////overlay data JSON
@@ -173,7 +177,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
         "github": "https://github.com/K00ry/online_registration_v2"
     }];
 
-
+define(['jquery'], function($) {
 
     var click_index;
 
@@ -227,6 +231,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
         }
 
 
-
-
 });
+
+
+

@@ -3,17 +3,17 @@ requirejs.config({
     baseUrl: 'js',
     paths: {
         
-        tweenmax: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min',
-        jquery: 'jquery.min',
-        background: 'jquery.mb.YTPlayer.min',
-        scrollmagic: 'ScrollMagic.min',
-        indicator: 'debug.addIndicators.min',
         tether: 'tether',
-        bootstrap: 'bootstrap.min',
-        gsap: 'animation.gsap.min',
-        tweenlite: 'TweenLite.min',
-        cssplugin: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min',
-        scrollto: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min'
+        jquery: 'jquery.min',
+         bootstrap: 'bootstrap.min',
+         tweenmax: 'TweenMax',
+         timeline: 'TimelineMax',
+         tweenlite: 'TweenLite',    
+        scrollmagic: 'ScrollMagic',
+        gsap: 'animation.gsap',
+        background: 'jquery.mb.YTPlayer.min'
+        
+        
 
     },
 
@@ -22,10 +22,10 @@ requirejs.config({
 
             deps: ['tether','jquery']
         }
-        ,
-        tweenlite: {
-            exports: 'TweenLite'
-        }
+        // ,
+        // tweenlite: {
+        //     exports: 'TweenLite'
+        // }
     }
 
 
@@ -37,5 +37,5 @@ require(['tether'], function(Tether) {
     return Tether;
 });
 
-require(['tether','jquery', 'bootstrap']);
+require(['tether','jquery', 'bootstrap',]);
 require(['writen/main']);
