@@ -1,27 +1,15 @@
-.carousel-control.right {
-    background-image: none;
+body {
+    // position: relative;
 }
 
-.carousel-control.left {
-    background-image: none;
-}
 
-#carousel-example-generic {
-    display: none;
-    @include media(tablet) {
-        display: block;
-    }
-}
 
 .navbar-light .navbar-nav .nav-link {
-     color: #333333;
+    color: #333333;
 }
 
-
-.nav-link{
-	@include font-fam-size(2em, $main-font-5, bold, #333333);
-
-
+.nav-link {
+    @include font-fam-size(2em, $main-font-5, bold, #333333);
 }
 
 .overlay-contentscale.open {
@@ -70,7 +58,7 @@
             @include font-fam-size(0.8em, $main-font-3, 200, #000);
             width: 80%;
             text-align: center;
-            margin: auto;
+            margin: 20px auto;
         }
     }
     ul {
@@ -78,8 +66,8 @@
         @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
         .tech-title {
             img {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 45px;
             }
         }
     }
@@ -88,11 +76,12 @@
 #overlay-desktop {
     display: none;
     @include media(tablet) {
+    	opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
         img {
             width: 100%;
             height: auto;
-        	}
+        }
         .title-tech-ov {
             @include flex-display(flex, row, flex-start, 100%);
             .title-ov {
@@ -102,10 +91,12 @@
                 @include flex-display(flex, row, flex-end, 90%, center);
             }
             img {
-                width: 35px;
-                height: 40px;
+                width: 40px;
+                height: 45px;
                 margin: 0 4px;
             }
         }
     }
 }
+
+

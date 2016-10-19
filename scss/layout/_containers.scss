@@ -14,8 +14,16 @@
     @include flex-display(flex, column, space-around, 94%, center);
     margin: auto;
     h1 {
+        opacity: 1;
         @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
-        margin: 10px auto;
+        top: -30px;
+        position: relative;
+        margin: 20px auto;
+        
+        @include media(tablet) {
+            opacity: 1;
+             top: 0;
+        }
     }
     .works {
         @include flex-display(flex, column, space-between, auto, center);
@@ -29,35 +37,73 @@
 }
 
 #mobile-portfolio {
+
     opacity: 0;
-    @include flex-display(flex, row, space-around, 100%, center);
-    flex-wrap: wrap;
+    @include flex-display(flex, column, space-around, 100%, center);
+    
     .last {
         margin-left: 200px;
     }
     .work-mobile {
-        @include flex-display(flex, column, space-around, $align: center);
+    	
+        display:flex;
+        align-items: center;
         margin: 5px auto;
-         @include media(tablet) {
-         	width: 20%;
-         }
-        img {
-            width: 130px;
-            height: 130px;
+        @include media(tablet) {
+        	opacity: 1;
+        	flex-direction:column;
+            width: 20%;
+        }
+        .img-border {
+        	margin: 10px 0;
+            box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
             border-radius: 50%;
             @include media(tablet) {
-            	width: 100px;
-            height: 100px;
+                transition: all .7s;
+                margin: 8px 0;
+                box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
+                &:hover {
+                    box-shadow: 0 0 0 10px hsl(15, 76%, 70%), 0 0 0 20px hsl(30, 76%, 70%), 0 0 0 30px hsl(44, 76%, 70%);
+                }
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                @include media(tablet) {}
             }
         }
         .caption {
             @include font-fam-size(.7em, $main-font-3, bold, #383838);
             margin: 10px 0;
+            padding: 0 20px;
         }
     }
-    // @include media(tablet) {}
+    @include media(tablet) {
+
+    	flex-wrap: none;
+    }
 }
 
-#carousel-example-generic {
-    opacity: 0;
+.about-main {
+    @include flex-display(flex, column, space-between, 100%, center);
+    h1 {
+        @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
+    }
+    .skills-main {
+        @include flex-display(flex, column, space-around, 80%, center);
+        .skills-icons {
+            @include flex-display(flex, row, space-around, 100%, center);
+            flex-wrap: wrap;
+            .logo-skill {
+                width: 45px;
+                height: 50px;
+                margin: 10px;
+            }
+        }
+        p {
+            @include font-fam-size(0.8em, $main-font-2, 200, #383838);
+            text-align: center;
+        }
+    }
 }
