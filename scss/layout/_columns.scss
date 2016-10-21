@@ -1,52 +1,44 @@
 #home {
     	@include flex-display(flex, column, space-between, 100%, center);
-     @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
+     // @include background("../img/Asset 1.jpg", 50% 50%, no-repeat, cover);
     height: 100vh;
     @include media(tablet) {
+    	 height: 100vh;
              background:none;
            }
 }
 
 #portfolio {
+    // padding-top: 2vh; 
     
  height: 100vh;
 
+ // margin-bottom: 200px;
+
  @include media(tablet) {
-             // @include background("../img/5.jpg", center bottom, no-repeat, cover);
+              
            }
 }
-// #parallax1 {
-//     @include background("../img/5.jpg", center bottom, no-repeat, cover);
 
-// }
-// 	#parallax1 {
-// 		height: 100vh;
-// 		overflow: hidden;
-// 	}
-// 	#parallax1 > * {
-// 		height: 200%;
-// 		position: relative;
-// 		top: -100%;
-// 	}
 
 #about {
+    padding-top: 8vh;  
+    padding-left:10px;
+    padding-right:10px;
 	@include flex-display(flex, column, space-between, 100%, center);
     // @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
     // display:none;
-    height: 100vh;
 
-    h1{
-    	margin: auto;
-		@include font-fam-size(4em, $main-font-5, bold, #EBEBEB);
-		    transition: all 1s;
-	}
+    height: 100vh;
+ // @include media(tablet) { height: 100vh;}
+  
 }
 
-#contact {
-    @include background("../img/4.jpg", 50% 50%, no-repeat, cover);
-    // display:none;
-    height: 100vh;
-}
+// #contact {
+//     @include background("../img/4.jpg", 50% 50%, no-repeat, cover);
+//     // display:none;
+//     height: 100vh;
+// }
 
 
 

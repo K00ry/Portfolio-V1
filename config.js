@@ -37,5 +37,6 @@ require(['tether'], function(Tether) {
     return Tether;
 });
 
-require(['tether','jquery', 'bootstrap',]);
+require(['tether','jquery', 'bootstrap']);
 require(['writen/main']);
+

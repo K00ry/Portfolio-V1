@@ -1,28 +1,44 @@
-.carousel-control.right {
-    background-image: none;
+body {
+     position: relative;
 }
 
-.carousel-control.left {
-    background-image: none;
+
+.nav{
+@include flex-display(flex, row, space-around, 100%, center);
+
+   @include media(tablet) {
+         padding-top: 10px;
+        }
+
+}
+.navbar-light .navbar-nav .nav-link {
+    // color: #333333;
+
+
 }
 
-#carousel-example-generic {
-    display: none;
-    @include media(tablet) {
-        display: block;
+.nav-item a {
+
+    transition: all .5s;
+    @include font-fam-size(2em, $main-font-5, bold, #333333);
+    &:hover{
+        color: rgba(0,0,0,.3);
     }
 }
+.active-me a {
+    border-radius: 50%;
+    background-color: hsl(15, 76%, 70%);
+    // font-size: 2.4em;
 
+    color: #333333;
+    box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+
+}
 .navbar-light .navbar-nav .nav-link {
-     color: #333333;
+    color: inherit;
+    padding: 0;
 }
 
-
-.nav-link{
-	@include font-fam-size(2em, $main-font-5, bold, #333333);
-
-
-}
 
 .overlay-contentscale.open {
     visibility: visible;
@@ -47,7 +63,7 @@
     top: 0;
     left: 0;
     background: $hard-blue-l;
-    z-index: 1;
+    z-index: 1400;
     @include media(tablet) {
         display: none;
     }
@@ -70,16 +86,16 @@
             @include font-fam-size(0.8em, $main-font-3, 200, #000);
             width: 80%;
             text-align: center;
-            margin: auto;
+            margin: 20px auto;
         }
     }
     ul {
-        @include flex-display(flex, row, space-between, 90%, center);
+        @include flex-display(flex, row, space-around, 80%, center);
         @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
         .tech-title {
             img {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 45px;
             }
         }
     }
@@ -88,24 +104,35 @@
 #overlay-desktop {
     display: none;
     @include media(tablet) {
+    	opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
         img {
             width: 100%;
             height: auto;
-        	}
+        }
+        p{
+            margin-bottom: 0;
+            text-align: center;
+        }
         .title-tech-ov {
-            @include flex-display(flex, row, flex-start, 100%);
+            @include flex-display(flex, row, space-between, 100%);
             .title-ov {
-                @include font-fam-size(2.5em, $main-font-5, bold, #333333);
+               
+                @include font-fam-size(2em, $main-font-5, bold, #333333);
+                @include media(tablet) {
+          @include font-fam-size(2em, $main-font-5, bold, #333333);
+        }
             }
             ul {
-                @include flex-display(flex, row, flex-end, 90%, center);
+                @include flex-display(flex, row, flex-end, 80%, center);
             }
             img {
-                width: 35px;
-                height: 40px;
+                width: 40px;
+                height: 45px;
                 margin: 0 4px;
             }
         }
     }
 }
+
+

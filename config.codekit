@@ -196,6 +196,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/work\/logos\/ai 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51795,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/ai 2.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/ai 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/ai.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51795,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/ai.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/ai.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/bootstrap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1977,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/bootstrap.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/bootstrap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/work\/logos\/css.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -203,6 +236,61 @@
 		"initialSize": 9920,
 		"inputAbbreviatedPath": "\/img\/work\/logos\/css.png",
 		"outputAbbreviatedPath": "\/img\/work\/logos\/css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15905,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/green.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/gulp 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5546,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp 2.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/gulp 3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5546,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp 3.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp 3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/gulp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5546,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/logos\/gulp1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11504,
+		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp1.png",
+		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
