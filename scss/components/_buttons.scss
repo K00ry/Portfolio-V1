@@ -20,4 +20,8 @@
         margin: 10px;
         
     }
+    @include media(laptop) {
+              padding-bottom: 20px;
+
+                }
 }
