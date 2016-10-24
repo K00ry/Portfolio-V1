@@ -10,27 +10,29 @@
 
 #portfolio {
     // padding-top: 2vh; 
-    
- height: 100vh;
+    @include flex-display(flex, column, space-between, 100%, center);
+height: 100vh;
 
  // margin-bottom: 200px;
 
  @include media(tablet) {
-              
+
+               height: 100vh;
            }
 }
 
 
 #about {
-    padding-top: 8vh;  
+     // padding-top: 8vh;  
     padding-left:10px;
     padding-right:10px;
 	@include flex-display(flex, column, space-between, 100%, center);
     // @include background("../img/3.jpg", 50% 50%, no-repeat, cover);
     // display:none;
 
-    height: 100vh;
- // @include media(tablet) { height: 100vh;}
+    // height: 100vh;
+  @include media(tablet) {height: 100vh;}
+ 
   
 }
 

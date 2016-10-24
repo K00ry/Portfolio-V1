@@ -1,44 +1,47 @@
 body {
-     position: relative;
+    position: relative;
 }
 
-
-.nav{
-@include flex-display(flex, row, space-around, 100%, center);
-
-   @include media(tablet) {
-         padding-top: 10px;
-        }
-
+nav {
+    // height: 10vh;
 }
-.navbar-light .navbar-nav .nav-link {
-    // color: #333333;
 
-
+.nav {
+    @include flex-display(flex, row, space-around, 100%, center);
+    @include media(tablet) {
+        padding-top: 10px;
+    }
+    @include media(laptop) {
+        justify-content: flex-start;
+    }
 }
 
 .nav-item a {
-
     transition: all .5s;
     @include font-fam-size(2em, $main-font-5, bold, #333333);
-    &:hover{
-        color: rgba(0,0,0,.3);
+    @include media(laptop) {
+        font-size: 2.7em;
+    }
+    @include media(desktop) {
+        font-size: 3em;
+    }
+    &:hover {
+        color: rgba(0, 0, 0, .3);
     }
 }
+
 .active-me a {
     border-radius: 50%;
     background-color: hsl(15, 76%, 70%);
     // font-size: 2.4em;
-
     color: #333333;
     box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
-
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: inherit;
     padding: 0;
 }
-
 
 .overlay-contentscale.open {
     visibility: visible;
@@ -103,25 +106,37 @@ body {
 
 #overlay-desktop {
     display: none;
+
     @include media(tablet) {
-    	opacity: 0;
+        opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
         img {
-            width: 100%;
-            height: auto;
+            width: 90%;
+            @include media(laptop) {
+                width: 90%;
+            }
+            @include media(desktop) {
+                width: 100%;
+            }
+           
         }
-        p{
+        p {
             margin-bottom: 0;
             text-align: center;
+            @include media(laptop) {
+               margin: 10px 0;
+               width: 80%;
+
+                }
         }
         .title-tech-ov {
             @include flex-display(flex, row, space-between, 100%);
+            
             .title-ov {
-               
                 @include font-fam-size(2em, $main-font-5, bold, #333333);
                 @include media(tablet) {
-          @include font-fam-size(2em, $main-font-5, bold, #333333);
-        }
+                    @include font-fam-size(2em, $main-font-5, bold, #333333);
+                }
             }
             ul {
                 @include flex-display(flex, row, flex-end, 80%, center);
@@ -130,9 +145,15 @@ body {
                 width: 40px;
                 height: 45px;
                 margin: 0 4px;
+                @include media(laptop) {
+                     width: 30px;
+                height: 35px;
+
+                }
             }
         }
     }
+    @include media(desktop) {
+                width: 70%;
+            }
 }
-
-
