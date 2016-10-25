@@ -1,27 +1,25 @@
 .links {
     margin: 20px;
-     @include flex-display(flex, row, space-between, 40%, center);
-     a {
-            @include font-fam-size(1.6em, $main-font-5, bold, #5B5B5B);
-             padding: 0 6px;
-            border-radius: 20%;
-            transition: all .7s;
-            margin: 8px 0;
-            box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
-            &:hover {
-                box-shadow: 0 0 0 10px hsl(15, 76%, 70%), 0 0 0 20px hsl(30, 76%, 70%);
-            }
-        
+    @include flex-display(flex, row, space-between, 40%, center);
+    a {
+      
+        @include font-fam-size(1.6em, $main-font-5, bold, #5B5B5B);
+        padding: 0 6px;
+        border-radius: 20%;
+        transition: all .7s;
+        margin: 8px 0;
+        box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
+        &:hover {
+            background-color: hsl(15, 76%, 70%);
+            box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%);
+              text-decoration: none;
         }
-        
-
+    }
     @include media(tablet) {
         width: 20%;
         margin: 10px;
-        
     }
     @include media(laptop) {
-              padding-bottom: 20px;
-
-                }
+        padding-bottom: 20px;
+    }
 }

@@ -123,6 +123,7 @@ nav {
         p {
             margin-bottom: 0;
             text-align: center;
+            font-weight: 400;
             @include media(laptop) {
                margin: 10px 0;
                width: 80%;

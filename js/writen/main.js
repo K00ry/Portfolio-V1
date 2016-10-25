@@ -184,7 +184,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
 ///////////////////--------------- javascript code for tablet ----------- \\\\\\\\\\\\\\\\\\\\\ 
     }else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
 
-        
+         $("#P1").YTPlayer();
     
 
         //////////////////////// Scroll to \\\\\\\\\\\\\\\\
@@ -363,7 +363,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
         var backWhite = TweenMax.to($('.navbar'), 4, { css:{background:'#fff'} });
         new ScrollMagic.Scene({ triggerElement: "#about" })
             .setTween(backWhite)
-            //.addIndicators() 
+           // .addIndicators() 
             .addTo(controller);
 
 

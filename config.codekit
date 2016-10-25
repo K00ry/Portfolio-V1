@@ -31,116 +31,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/0-0.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 262651,
-		"inputAbbreviatedPath": "\/img\/0-0.jpg",
-		"outputAbbreviatedPath": "\/img\/0-0.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/0.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6.08252e+06,
-		"inputAbbreviatedPath": "\/img\/0.jpg",
-		"outputAbbreviatedPath": "\/img\/0.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/1-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 254299,
-		"inputAbbreviatedPath": "\/img\/1-1.jpg",
-		"outputAbbreviatedPath": "\/img\/1-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.38778e+07,
-		"inputAbbreviatedPath": "\/img\/1.jpg",
-		"outputAbbreviatedPath": "\/img\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.67702e+06,
-		"inputAbbreviatedPath": "\/img\/2.jpg",
-		"outputAbbreviatedPath": "\/img\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/3-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41364,
-		"inputAbbreviatedPath": "\/img\/3-3.jpg",
-		"outputAbbreviatedPath": "\/img\/3-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.83468e+06,
-		"inputAbbreviatedPath": "\/img\/3.jpg",
-		"outputAbbreviatedPath": "\/img\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9.09288e+06,
-		"inputAbbreviatedPath": "\/img\/4.jpg",
-		"outputAbbreviatedPath": "\/img\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.68766e+06,
-		"inputAbbreviatedPath": "\/img\/5.jpg",
-		"outputAbbreviatedPath": "\/img\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/Asset 1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/Asset 1.jpg",
-		"outputAbbreviatedPath": "\/img\/Asset 1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/work\/desk\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -247,39 +137,6 @@
 		"initialSize": 15905,
 		"inputAbbreviatedPath": "\/img\/work\/logos\/green.png",
 		"outputAbbreviatedPath": "\/img\/work\/logos\/green.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/gulp 2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5546,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp 2.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp 2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/gulp 3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5546,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp 3.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp 3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/work\/logos\/gulp.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5546,
-		"inputAbbreviatedPath": "\/img\/work\/logos\/gulp.png",
-		"outputAbbreviatedPath": "\/img\/work\/logos\/gulp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -502,12 +359,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/animation.gsap.min.js": {
+	"\/js\/animation.gsap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/animation.gsap.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/animation.gsap.min-min.js",
+		"inputAbbreviatedPath": "\/js\/animation.gsap.js",
+		"outputAbbreviatedPath": "\/js\/min\/animation.gsap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -519,6 +376,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/build.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/build.js",
+		"outputAbbreviatedPath": "\/js\/min\/build-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -557,6 +425,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/r.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/r.js",
+		"outputAbbreviatedPath": "\/js\/min\/r-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/ScrollMagic.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -590,12 +469,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/TimelineMax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/TimelineMax.js",
+		"outputAbbreviatedPath": "\/js\/min\/TimelineMax-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/TweenLite.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/TweenLite.js",
+		"outputAbbreviatedPath": "\/js\/min\/TweenLite-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/TweenLite.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/TweenLite.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/TweenLite.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/TweenMax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/TweenMax.js",
+		"outputAbbreviatedPath": "\/js\/min\/TweenMax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -631,7 +543,7 @@
 		"outputAbbreviatedPath": "\/js\/writen\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/writen\/min\/jasem-min.js": {
@@ -690,7 +602,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/scss\/application.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -700,8 +612,8 @@
 		"outputAbbreviatedPath": "\/css\/application.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},

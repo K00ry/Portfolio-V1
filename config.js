@@ -7,14 +7,11 @@ requirejs.config({
         jquery: 'jquery.min',
          bootstrap: 'bootstrap.min',
          tweenmax: 'TweenMax',
-         timeline: 'TimelineMax',
-         tweenlite: 'TweenLite',    
-        scrollmagic: 'ScrollMagic',
+         timeline:'TimelineMax',
+         tweenlite:'TweenLite',
+        scrollmagic: 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js',
         gsap: 'animation.gsap',
         background: 'jquery.mb.YTPlayer.min'
-        
-        
-
     },
 
     shim: {
@@ -22,10 +19,8 @@ requirejs.config({
 
             deps: ['tether','jquery']
         }
-        // ,
-        // tweenlite: {
-        //     exports: 'TweenLite'
-        // }
+
+       
     }
 
 
@@ -40,3 +35,10 @@ require(['tether'], function(Tether) {
 require(['tether','jquery', 'bootstrap']);
 require(['writen/main']);
 
+// if (document.documentElement.clientWidth >= 1024){
+
+//     }else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
+
+//           } else {
+
+//           }
