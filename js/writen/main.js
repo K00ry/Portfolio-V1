@@ -3,7 +3,8 @@
 
 // });
 
-define(['jquery', 'background'], function($, YTPlayer) {
+
+// define(['jquery','tether', 'bootstrap', 'jquery.mb.YTPlayer.min'], function($) {
 
 
 
@@ -13,7 +14,7 @@ define(['jquery', 'background'], function($, YTPlayer) {
     //////// header animation \\\\\\\
 
 
-    var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 0.5 });
+    // var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 0.5 });
 
 
     ///////////////////--------------- javascript code for desktop ----------- \\\\\\\\\\\\\\\\\\\\\ 
@@ -632,4 +633,4 @@ define(['jquery', 'background'], function($, YTPlayer) {
     }
 
 
-});
+// });
