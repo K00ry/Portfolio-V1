@@ -127,25 +127,27 @@
         width: 70%;
         background-color: #fff;
     }
-    .about-h1 {
-        display: none;
-        @include media(tablet) {}
-    }
+    // .about-h1 {
+    //     display: none;
+    //     @include media(tablet) {}
+    // }
     .port-head-2 {
         @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
         margin: 0 auto;
     }
     p {
         // @include font-fam-size(0.8em, $main-font-4, 200, #383838);
+        font-weight: 800;
         font-size: 0.8em;
         text-align: center;
         margin: 0.5em 0;
         @include media(tablet) {
+            font-weight: 600;
             padding: 10px 0;
             font-size: 1em;
             font-weight: 400;
             width: 80%;
-            background:#fff;
+           
         }
     }
     .skills-main {
@@ -190,19 +192,7 @@
     }
 }
 
-.social {
-    @include flex-display(flex, row, space-around, 50%, center);
-    margin: 10px;
-    .social-icon {
-        transition: all .3s;
-        width: 30px;
-        height: 30px;
-        &:hover {
-            opacity: 0.7;
-        }
-        @include media(tablet) {
-            width: 40px;
-            height: 40px;
-        }
-    }
-}
+
+
+
+
