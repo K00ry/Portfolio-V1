@@ -335,8 +335,8 @@ if (document.documentElement.clientWidth >= 1024) {
 } //////////////////////////////////////////end break points!!
 
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 0.5 });
-var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 0.5 });
+var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 2 });
+var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 2 });
 /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 var target_home = $('#home').offset().top,
