@@ -3,10 +3,13 @@
     margin: auto;
     h1 {
         text-align: center;
-        @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
+        @include font-fam-size(5em, $main-font-5, bold, #333333);
+
+
     }
     p {
-        @include font-fam-size(2em, $main-font-5, bold, #5B5B5B);
+        @include font-fam-size(2em, $main-font-5, bold, #333333);
+          border-radius: 50%;
     }
 }
 
@@ -28,7 +31,7 @@
     }
     h1 {
         opacity: 0;
-        @include font-fam-size(4.8em, $main-font-5, bold, #5B5B5B);
+        @include font-fam-size(4.8em, $main-font-5, bold, #333333);
         top: -75px;
         position: relative;
         margin: 8px auto;
@@ -102,6 +105,9 @@
             @include font-fam-size(.7em, $main-font-3, bold, #383838);
             margin: 10px 0;
             padding: 0 20px;
+             @include media(landscape) {
+                 text-align: center;
+                }
             @include media(tablet) {
               
                 text-align: center;
@@ -113,6 +119,7 @@
 }
 
 .about-main {
+    transition: all .5s;
     @include flex-display(flex, column, space-between, 100%, center);
     margin: auto;
     @include media(tablet) {
@@ -121,13 +128,12 @@
     @include media(laptop) {
         width: 80%;
         background-color: #fff;
-    }
-    @include media(laptop) {
         width: 60%;
     }
+ 
   
     .port-head-2 {
-        @include font-fam-size(5em, $main-font-5, bold, #5B5B5B);
+        @include font-fam-size(5em, $main-font-5, bold, #333333);
         margin: 0 auto;
     }
     p {
@@ -147,6 +153,8 @@
     .skills-main {
         @include flex-display(flex, column, space-around, 90%, center);
         .skills-icons {
+              opacity: 0;
+            transition: all .5s;
             @include flex-display(flex, row, space-around, 100%, center);
             flex-wrap: wrap;
             @include media(tablet) {
@@ -180,10 +188,11 @@
          @include media(landscape) {
                    font-size: 1.5em;
                 }
-        @include font-fam-size(2.5em, $main-font-5, 200, #5B5B5B);
+        @include font-fam-size(2.5em, $main-font-5, 200, #333333);
         
     }
     .number-email {
+
         @include flex-display(flex, row, space-around, 80%, center);
         a {
             @include font-fam-size(1em, $main-font-5, 200, #5B5B5B);

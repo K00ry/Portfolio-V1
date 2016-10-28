@@ -29,8 +29,15 @@ body {
 .active-me a {
     border-radius: 50%;
     background-color: hsl(15, 76%, 60%);
+        box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
     color: #333333;
-    box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+
+}
+.active-intro{
+     
+    background-color: hsl(15, 76%, 60%);
+        box-shadow: 0 0 0 15px hsl(15, 76%, 70%), 0 0 0 30px hsl(30, 76%, 70%), 0 0 0 45px hsl(44, 76%, 70%);
+          transition: all .5s;
 }
 
 .navbar-light .navbar-nav .nav-link {
