@@ -5,24 +5,24 @@ if (document.documentElement.clientWidth >= 1024) {
 
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
-    $("#P1").YTPlayer();
+    $("#bgndVideo").YTPlayer();
     ///////sticky Pages\\\\\\\\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    // get all slides
-    var slides = document.querySelectorAll("div.panel");
+    // var controller = new ScrollMagic.Controller();
+    // // get all slides
+    // var slides = document.querySelectorAll("div.panel");
 
-    // create scene for every slide
-    for (var i = 0; i < slides.length; i++) {
-        new ScrollMagic.Scene({
-                triggerElement: slides[i],
-                triggerHook: 0
-            })
-            .setPin(slides[i])
-            // .addIndicators()
-            .addTo(controller);
+    // // create scene for every slide
+    // for (var i = 0; i < slides.length; i++) {
+    //     new ScrollMagic.Scene({
+    //             triggerElement: slides[i],
+    //             triggerHook: 0
+    //         })
+    //         .setPin(slides[i])
+    //         // .addIndicators()
+    //         .addTo(controller);
 
-    }
+    // }
 
 
     //////// name fade animation \\\\\\\
@@ -201,20 +201,20 @@ if (document.documentElement.clientWidth >= 1024) {
 
     ///////sticky Pages\\\\\\\\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    // get all slides
-    var slides = document.querySelectorAll("div.panel");
+    // var controller = new ScrollMagic.Controller();
+    // // get all slides
+    // var slides = document.querySelectorAll("div.panel");
 
-    // create scene for every slide
-    for (var i = 0; i < slides.length; i++) {
-        new ScrollMagic.Scene({
-                triggerElement: slides[i],
-                triggerHook: 0
-            })
-            .setPin(slides[i])
-            // .addIndicators()
-            .addTo(controller);
-    }
+    // // create scene for every slide
+    // for (var i = 0; i < slides.length; i++) {
+    //     new ScrollMagic.Scene({
+    //             triggerElement: slides[i],
+    //             triggerHook: 0
+    //         })
+    //         .setPin(slides[i])
+    //         // .addIndicators()
+    //         .addTo(controller);
+    // }
 
 
 

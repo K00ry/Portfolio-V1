@@ -23,11 +23,11 @@
     @include media(laptop) {
         padding-top: 0;
         width: 80%;
-        height: 100vh;
+   
     }
     @include media(desktop) {
         width: 80%;
-        height: 120vh;
+       
     }
     h1 {
         opacity: 0;
