@@ -37,8 +37,14 @@
 
 // media-queries mixin \\
 @mixin media($break) {
+    
     @if $break==landscape {
-        @media (min-width: $brk-landscape) {
+        @media (min-device-width: $brk-xs) and (max-device-width: $h-iphone6p)  and (orientation: landscape)  {
+            @content;
+        }
+    }
+    @else if $break==mobile-l {
+        @media (min-width: $brk-mobile-l) {
             @content;
         }
     }
@@ -57,29 +63,11 @@
             @content;
         }
     }
+
     @else if $break==4k {
-        @media (min-width: $brk-4k) {
+        @media (min-device-width: $brk-4k) {
             @content;
         }
     }
-     @else if $break==iphone4 {
-        @media (min-width: $brk-xs) and (min-height: $h-iphone4 ) {
-            @content;
-        }
-    }
-    @else if $break==iphone5 {
-        @media (min-width: $brk-xs) and (min-height: $h-iphone5 ) {
-            @content;
-        }
-    }
-    @else if $break==iphone6 {
-        @media (min-width: $brk-s) and (min-height: $h-iphone6 ) {
-            @content;
-        }
-    }
-    @else if $break==iphone6p {
-        @media (min-width: $brk-landscape) and (min-height: $h-iphone6p ) {
-            @content;
-        }
-    }
+    
 }
