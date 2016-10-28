@@ -2,7 +2,7 @@
 
 if (document.documentElement.clientWidth >= 1024) {
 
-   
+
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
     $("#P1").YTPlayer();
@@ -45,7 +45,6 @@ if (document.documentElement.clientWidth >= 1024) {
     //////// portfolio H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    // var smallScene = TweenMax.fromTo($('.port-head'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } });
     var tweeny = new TimelineMax()
         .fromTo($('.port-head'), 4, { css: { fontSize: "7em" } }, { css: { fontSize: "4em" } }, 0)
         .to($('.port-head'), 4, { opacity: 1 }, 0);
@@ -135,7 +134,6 @@ if (document.documentElement.clientWidth >= 1024) {
     //////// portfolio H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    // var smallScene = TweenMax.fromTo($('.port-head'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } });
     var tweeny = new TimelineMax()
         .fromTo($('.port-head'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } }, 0)
         .to($('.port-head'), 4, { opacity: 0 }, 0);
@@ -228,7 +226,6 @@ if (document.documentElement.clientWidth >= 1024) {
 
 
 
-    ////////////////////////////////////////////////   ////////////////////////////////////////////////
 
 
 
@@ -236,7 +233,8 @@ if (document.documentElement.clientWidth >= 1024) {
 
 
 
-    ////////////////////////////////////////////////main head disappear\\\\
+
+    ////////////////////////////////////////////////main head disappear\\\\\\\\\\\\\\\\\\
     var controller = new ScrollMagic.Controller();
     var header = $('#home-wrap');
     var abbas = TweenMax.to(header, 2, { opacity: 0, y: -80 });
@@ -257,8 +255,6 @@ if (document.documentElement.clientWidth >= 1024) {
     ////// portfolio H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    //  var smallScene = TweenMax.fromTo($('.port-head'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } });
-    // var mobileScene  = TweenMax.to($('.port-head'), 4, { y: 80 ,opacity: 1});
     var tween = new TimelineMax()
         .fromTo($('.port-head'), 4, { css: { fontSize: "6em" } }, { css: { fontSize: "3em" } }, 0)
         .to($('.port-head'), 4, { y: 85, opacity: 1 }, 0);
@@ -338,9 +334,10 @@ if (document.documentElement.clientWidth >= 1024) {
 
 } //////////////////////////////////////////end break points!!
 
-
- var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 0.5 });
-
+/////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 0.5 });
+var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 0.5 });
+/////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 var target_home = $('#home').offset().top,
     target_portfolio = $('#portfolio').offset().top,
@@ -362,7 +359,7 @@ $("#about-link").click(function() {
 
 
 
-
+/////////////////////// scroll magics scroll spy feature \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
 new ScrollMagic.Scene({ triggerElement: "#home" })
@@ -381,8 +378,7 @@ new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle(".navbar", "active-transparent")
     //.addIndicators() 
     .addTo(controller);
-// var portofilo_h1 = $('.port-head');
-// var overlay_desktop = $('#overlay-desktop');
+
 
 
 
@@ -480,5 +476,3 @@ function projectSync(click_index) {
     });
     $('.tech-ov').hide().html(tech_list).fadeIn(1000);
 }
-
-
