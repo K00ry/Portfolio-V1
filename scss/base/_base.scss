@@ -2,10 +2,6 @@ body {
     position: relative;
 }
 
-nav {
-    // height: 10vh;
-}
-
 .nav {
     @include flex-display(flex, row, space-around, 100%, center);
     @include media(tablet) {
@@ -32,10 +28,16 @@ nav {
 
 .active-me a {
     border-radius: 50%;
-    background-color: hsl(15, 76%, 70%);
-    // font-size: 2.4em;
+    background-color: hsl(15, 76%, 60%);
+        box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
     color: #333333;
-    box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+
+}
+.active-intro{
+     
+    background-color: hsl(15, 76%, 60%);
+        box-shadow: 0 0 0 15px hsl(15, 76%, 70%), 0 0 0 30px hsl(30, 76%, 70%), 0 0 0 45px hsl(44, 76%, 70%);
+          transition: all .5s;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -76,37 +78,61 @@ nav {
         @include font-fam-size(4em, $main-font-5, bold, #EBEBEB);
         margin: 10px auto;
         text-align: center;
+        @include media(landscape) {
+            font-size: 2em;
+        }
     }
     .lay-img {
+        @include flex-display(flex, column, flex-start, 100%, center);
         height: auto;
-        padding: 30px 0;
-        img {
-            background-color: #CCCCCC;
-            width: 100%;
-            max-width: 400px;
+        padding: 10px 0;
+        margin: auto;
+        @include media(landscape) {
+            padding: 0;
         }
-        p {
-            @include font-fam-size(0.8em, $main-font-3, 200, #000);
-            width: 80%;
-            text-align: center;
-            margin: 20px auto;
+        ul {
+            @include flex-display(flex, row, space-around, 80%, center);
+            @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
+            @include media(landscape) {}
+            .tech-title {
+                img {
+                    width: 30px;
+                    height: 35px;
+                    @include media(landscape) {
+                        width: 20px;
+                        height: 25px;
+                    }
+                }
+            }
         }
     }
-    ul {
-        @include flex-display(flex, row, space-around, 80%, center);
-        @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
-        .tech-title {
-            img {
-                width: 40px;
-                height: 45px;
-            }
+}
+
+.img-and-caption {
+    @include flex-display(flex, column, space-around, 100%, center);
+    @include media(landscape) {}
+    img {
+        background-color: #CCCCCC;
+        width: 100%;
+        max-width: 400px;
+        @include media(landscape) {
+            width: 55%;
+        }
+    }
+    p {
+        @include font-fam-size(0.8em, $main-font-3, 200, #000);
+        width: 80%;
+        text-align: center;
+        margin: 10px auto;
+        @include media(landscape) {
+            font-size: 0.7em;
+            margin: 0;
         }
     }
 }
 
 #overlay-desktop {
     display: none;
-
     @include media(tablet) {
         opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
@@ -118,21 +144,18 @@ nav {
             @include media(desktop) {
                 width: 100%;
             }
-           
         }
         p {
             margin-bottom: 0;
             text-align: center;
             font-weight: 400;
             @include media(laptop) {
-               margin: 10px 0;
-               width: 80%;
-
-                }
+                margin: 10px 0;
+                width: 80%;
+            }
         }
         .title-tech-ov {
             @include flex-display(flex, row, space-between, 100%);
-            
             .title-ov {
                 @include font-fam-size(2em, $main-font-5, bold, #333333);
                 @include media(tablet) {
@@ -147,14 +170,13 @@ nav {
                 height: 45px;
                 margin: 0 4px;
                 @include media(laptop) {
-                     width: 30px;
-                height: 35px;
-
+                    width: 30px;
+                    height: 35px;
                 }
             }
         }
     }
     @include media(desktop) {
-                width: 70%;
-            }
+        width: 70%;
+    }
 }
