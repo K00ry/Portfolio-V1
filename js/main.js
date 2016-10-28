@@ -63,17 +63,20 @@ if (document.documentElement.clientWidth >= 1024) {
     // // //////// SKILLS H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
+     var tweenySkills = new TimelineMax()
+        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } },0)
+        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 });
+    // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '360',
+            duration: '260',
             offset: 100
 
         })
-        .setTween(smallScene2)
-        // .addIndicators()
+        .setTween(tweenySkills)
+         //.addIndicators()
         .addTo(controller);
 
     //////// portfolio animation \\\\\\\
@@ -149,19 +152,22 @@ if (document.documentElement.clientWidth >= 1024) {
         .addTo(controller);
 
 
-    // // //////// SKILLS H1 size decrease \\\\\\\
+      // // //////// SKILLS H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
+     var tweenySkills = new TimelineMax()
+        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } },0)
+        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 },0);
+    // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '360',
+            duration: '100',
             offset: 100
 
         })
-        .setTween(smallScene2)
+        .setTween(tweenySkills)
         // .addIndicators()
         .addTo(controller);
 
@@ -271,20 +277,23 @@ if (document.documentElement.clientWidth >= 1024) {
         .addTo(controller);
 
 
-    //////// SKILLS H1 size decrease \\\\\\\
+   // // //////// SKILLS H1 size decrease \\\\\\\
 
     var controller = new ScrollMagic.Controller();
-    var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } });
+     var tweenySkills = new TimelineMax()
+        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } },0)
+        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 },0);
+    // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '300',
+            duration: '100',
             offset: 100
 
         })
-        .setTween(smallScene2)
-        // .addIndicators()
+        .setTween(tweenySkills)
+         //.addIndicators()
         .addTo(controller);
 
 
@@ -335,8 +344,10 @@ if (document.documentElement.clientWidth >= 1024) {
 } //////////////////////////////////////////end break points!!
 
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 2 });
-var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 2 });
+var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1 });
+var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1 });
+
+
 /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 var target_home = $('#home').offset().top,
@@ -361,7 +372,7 @@ $("#about-link").click(function() {
 
 /////////////////////// scroll magics scroll spy feature \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
+var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "150" } });
 new ScrollMagic.Scene({ triggerElement: "#home" })
     .setClassToggle("#home-li", "active-me")
     //.addIndicators() 
@@ -374,10 +385,7 @@ new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle("#about-li", "active-me")
     //.addIndicators() 
     .addTo(controller);
-new ScrollMagic.Scene({ triggerElement: "#about" })
-    .setClassToggle(".navbar", "active-transparent")
-    //.addIndicators() 
-    .addTo(controller);
+
 
 
 
@@ -425,7 +433,7 @@ var data = [{
     "github": "https://github.com/K00ry/online_registration_v2"
 }];
 
-
+////Overlay & portfolio Functionality
 var click_index;
 
 

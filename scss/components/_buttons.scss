@@ -5,11 +5,16 @@
         margin: 0;
         width: 30%;
     }
+
     a {
         @include media(landscape) {
             font-size: 1.8em;
             box-shadow: none;
         }
+         @include media(tablet) {
+        width: 40%;
+       
+    }
         @include media(laptop) {
             font-size: 2em;
             box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
