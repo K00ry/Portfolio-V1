@@ -351,8 +351,8 @@ var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, del
 /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 var target_home = $('#home').offset().top,
-    target_portfolio = $('#portfolio').offset().top,
-    target_about = $('#about').offset().top;
+    target_portfolio = $('.port-head').offset().top,
+    target_about = $('.number-email').offset().top;
 
 
 
