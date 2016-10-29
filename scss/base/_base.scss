@@ -29,15 +29,14 @@ body {
 .active-me a {
     border-radius: 50%;
     background-color: hsl(15, 76%, 60%);
-        box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+    box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
     color: #333333;
-
 }
-.active-intro{
-     
+
+.active-intro {
     background-color: hsl(15, 76%, 60%);
-        box-shadow: 0 0 0 15px hsl(15, 76%, 70%), 0 0 0 30px hsl(30, 76%, 70%), 0 0 0 45px hsl(44, 76%, 70%);
-          transition: all .5s;
+    box-shadow: 0 0 0 15px hsl(15, 76%, 70%), 0 0 0 30px hsl(30, 76%, 70%), 0 0 0 45px hsl(44, 76%, 70%);
+    transition: all .5s;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -137,6 +136,7 @@ body {
        
         opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
+<<<<<<< HEAD
         .img-holder{
             // @include flex-display(flex, column, flex-start, 100%, center);
 
@@ -146,6 +146,22 @@ body {
                 max-width: 70%;
             }
 
+=======
+        .img-holder {
+            @include flex-display(flex, column, flex-start, 100%, center);
+            img {
+                width: 90%;
+                @include media(laptop) {
+                    width: 90%;
+                }
+                @include media(desktop) {
+                    width: 100%;
+                }
+            }
+        }
+        img {
+            width: 90%;
+>>>>>>> require.js-Figuration
             @include media(laptop) {
                  max-width: 90%;
             }
