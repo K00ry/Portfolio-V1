@@ -134,17 +134,28 @@ body {
 #overlay-desktop {
     display: none;
     @include media(tablet) {
+       
         opacity: 0;
         @include flex-display(flex, column, flex-start, 90%, center);
-        img {
-            width: 90%;
+        .img-holder{
+            // @include flex-display(flex, column, flex-start, 100%, center);
+
+              img {
+             max-width: 90%;
+            @include media(smallDesktop) {
+                max-width: 70%;
+            }
+
             @include media(laptop) {
-                width: 90%;
+                 max-width: 90%;
             }
             @include media(desktop) {
-                width: 100%;
+                max-width: 100%;
             }
         }
+
+        }
+      
         p {
             margin-bottom: 0;
             text-align: center;

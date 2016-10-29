@@ -119,6 +119,7 @@
 }
 
 .about-main {
+     overflow-y: scroll;
     transition: all .5s;
     @include flex-display(flex, column, space-between, 100%, center);
     margin: auto;
