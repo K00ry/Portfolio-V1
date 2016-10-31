@@ -25,6 +25,28 @@ if (document.documentElement.clientWidth >= 1024) {
     // }
 
 
+
+    /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+    target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
+
+
+
     //////// name fade animation \\\\\\\
 
 
@@ -111,6 +133,27 @@ if (document.documentElement.clientWidth >= 1024) {
 } else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
     /// you tube player
     $("#P1").YTPlayer();
+
+
+
+/////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+    target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
 
 
     //////// name fade animation \\\\\\\
@@ -223,6 +266,27 @@ if (document.documentElement.clientWidth >= 1024) {
 } else {
 
 
+    /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+   target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
+
+
+
     var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
     var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
     new ScrollMagic.Scene({ triggerElement: "#about" })
@@ -263,7 +327,7 @@ if (document.documentElement.clientWidth >= 1024) {
     var controller = new ScrollMagic.Controller();
     var tween = new TimelineMax()
         .fromTo($('.port-head'), 4, { css: { fontSize: "6em" } }, { css: { fontSize: "3em" } }, 0)
-        .to($('.port-head'), 4, { y: 85, opacity: 1 }, 0);
+        .to($('.port-head'), 4, {  opacity: 1 }, 0);
 
 
     var smallerScene = new ScrollMagic.Scene({
@@ -348,24 +412,6 @@ var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, del
 var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1 });
 
 
-/////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-var target_home = $('#home').offset().top,
-    target_portfolio = $('.port-head').offset().top,
-    target_about = $('.number-email').offset().top;
-
-
-
-$("#home-link").click(function() {
-    $("html, body").animate({ scrollTop: target_home }, 1500);
-});
-$("#port-link").click(function() {
-    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
-});
-
-$("#about-link").click(function() {
-    $("html, body").animate({ scrollTop: target_about }, 1500);
-});
 
 
 
@@ -383,7 +429,7 @@ new ScrollMagic.Scene({ triggerElement: "#portfolio" })
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle("#about-li", "active-me")
-    //.addIndicators() 
+    .addIndicators() 
     .addTo(controller);
 
 

@@ -2,10 +2,15 @@
     @include flex-display(flex, column, space-between, 100%, center);
     position: fixed;
     margin: auto;
-    top :30%;
+    top: 30%;
+    @-moz-document url-prefix() {
+        position: sticky;
+            
+        }
     h1 {
         text-align: center;
         @include font-fam-size(5em, $main-font-5, bold, #333333);
+
     }
     p {
         @include font-fam-size(2em, $main-font-5, bold, #333333);
@@ -23,6 +28,7 @@
     @include media(laptop) {
         padding-top: 0;
         width: 80%;
+
     }
     @include media(desktop) {
         width: 80%;
@@ -30,7 +36,7 @@
     h1 {
         opacity: 0;
         @include font-fam-size(4.8em, $main-font-5, bold, #333333);
-        top: -75px;
+        // top: -75px;
         position: relative;
         margin: 8px auto;
         @include media(tablet) {
@@ -60,7 +66,7 @@
     }
     @include media(tablet) {
         @include flex-display(flex, row, space-around, 100%, center);
-        margin-bottom: 10px;
+        margin: 35px auto;
     }
     .last {
         margin-left: 200px;
@@ -105,14 +111,14 @@
             }
             @include media(tablet) {
                 text-align: center;
-                margin: 10px 0 0 0;
+                margin: 15px 0 0 0;
             }
         }
     }
 }
 
 .about-main {
-     overflow-y: scroll;
+    overflow-y: scroll;
     transition: all .5s;
     @include flex-display(flex, column, space-between, 100%, center);
     margin: auto;
@@ -120,9 +126,9 @@
         padding: 1em;
     }
     @include media(laptop) {
-        width: 80%;
+        width: 90%;
         background-color: #fff;
-        width: 60%;
+     
     }
     .port-head-2 {
         @include font-fam-size(5em, $main-font-5, bold, #333333);
@@ -135,11 +141,18 @@
         text-align: center;
         margin: 0.5em 0;
         @include media(tablet) {
+             margin: 2em 0;
             font-weight: 600;
             padding: 10px 0;
             font-size: 1em;
             font-weight: 400;
             width: 80%;
+        }
+         @include media(laptop) {
+            font-size: 1.2em;
+            font-weight: 600;
+
+           
         }
     }
     .skills-main {
@@ -151,6 +164,9 @@
             flex-wrap: wrap;
             @include media(tablet) {
                 width: 60%
+            }
+            @include media(laptop) {
+          
             }
             .logo-skill {
                 width: 38px;
@@ -179,12 +195,23 @@
             font-size: 1.5em;
         }
         @include font-fam-size(2.5em, $main-font-5, 200, #333333);
+        @include media(tablet) {
+          
+           font-size: 3em;
+        }
     }
     .number-email {
         @include flex-display(flex, row, space-around, 80%, center);
+        @include media(tablet) {
+           margin: 10px auto;
+           font-size: 1.8em;
+        }
         a {
             @include font-fam-size(1em, $main-font-5, 200, #5B5B5B);
             text-decoration: none;
+             @include media(tablet) {
+                    font-size: 1.4em;
+                }
         }
     }
 }
