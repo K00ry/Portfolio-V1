@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CAlfa+Slab+One%7CBevan%7CChanga+One%7CSix+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Dosis|Six+Caps" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/application.css">
     <title>Kourosh Mirzaei - Portfolio</title>
@@ -35,8 +35,11 @@
         </symbol>
     </svg>
     <!--    Caroosel  -->
-    <div id="P1" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UYjJLjxeVG0',containment:'#home',showControls:false,startAt:0,mute:true,autoPlay:true,loop:true,opacity:0.1, addRaster:false,showYTLogo: false}">
-    </div>
+<!--     <div id="P1" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UYjJLjxeVG0',containment:'#home',showControls:false,startAt:0,mute:true,autoPlay:true,loop:true,opacity:0.1, addRaster:false,showYTLogo: false}">
+    </div> -->
+    <div id="bgndVideo" class="player" 
+     data-property="{videoURL:'https://www.youtube.com/watch?v=UYjJLjxeVG0',containment:'body',showControls:false,autoPlay:true, mute:true, startAt:0, opacity:0.1, addRaster:false,showYTLogo: false}">
+</div>
     <!-- carosel end -->
     <nav class="navbar navbar-fixed-top navbar-light bg-faded navigation-bar is-visible">
         <ul class="nav navbar-nav">
@@ -68,13 +71,13 @@
     </div>
    
     <!--  -->
-    <div id="home" class="panel first container-fluid">
+    <div id="home" class="panel first">
         <div id="home-wrap">
             <h1 class="main-meme">Kourosh Mirzaei</h1>
             <p class="main-meme front-end">Front End Developer.</p>
         </div>
     </div>
-    <div id="portfolio" class="panel second container-fluid">
+    <div id="portfolio" class="panel second">
         <div id="projects">
             <h1 class="port-head">Work</h1>
             <div id="mobile-portfolio">
@@ -100,7 +103,7 @@
                 </div>
             </div>
             <div id="overlay-desktop">
-                <div class="img-holder"><img class="img-ov" src="img/work/responsive/2.png" alt="responsive devices picture on larger devices"></div>
+                <div class="img-holder"><img class="img-ov img-fluid" src="img/work/responsive/2.png" alt="responsive devices picture on larger devices"></div>
                 <div class="title-tech-ov">
                     <h1 class="title-ov">WEB_APP</h1>
                     <ul class="tech-ov">
@@ -163,6 +166,7 @@
                     </svg>
                 </a>
             </div>
+            <span> &copy; Kourosh Mirzaei 2016</span>
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" type="text/javascript"></script>
@@ -170,7 +174,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
- <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="js/min/main-min.js"></script>
 </body>
 
