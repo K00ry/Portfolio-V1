@@ -87,18 +87,18 @@ $("#about-link").click(function() {
     var controller = new ScrollMagic.Controller();
      var tweenySkills = new TimelineMax()
         .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } },0)
-        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 });
+        .to($('.skills-icons,.contact'), 4, { opacity: 1, duration: 3 });
     // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '260',
+            duration: '300',
             offset: 100
 
         })
         .setTween(tweenySkills)
-         //.addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     //////// portfolio animation \\\\\\\
@@ -112,13 +112,17 @@ $("#about-link").click(function() {
             offset: 50
         })
         .setTween(portScene)
-        //.addIndicators()
+       // .addIndicators()
         .addTo(controller);
 
 
     ////// portfolio END animation \\\\\\\
 
     var controller = new ScrollMagic.Controller();
+
+     // var tweenyEnd = new TimelineMax()
+     //    .to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 },0)
+     //    .to($('.about-main'), 4, { opacity: 1, duration: 3 },0);
     var portEndScene = TweenMax.to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 });
     var aboutScene = new ScrollMagic.Scene({
             triggerElement: '.about-main',
@@ -128,6 +132,25 @@ $("#about-link").click(function() {
         .setTween(portEndScene)
         // .addIndicators()
         .addTo(controller);
+
+
+
+    //      ////// portfolio END animation \\\\\\\
+
+    // var controller = new ScrollMagic.Controller();
+
+    //  // var tweenyEnd = new TimelineMax()
+    //  //    .to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 },0)
+    //  //    .to($('.about-main'), 4, { opacity: 1, duration: 3 },0);
+    // var aboutStartScene = TweenMax.to($('.about-main'), 4, { opacity: 1, duration: 3});
+    // var aboutSceneStart = new ScrollMagic.Scene({
+    //         triggerElement: '.about-main',
+    //         triggerHook: 0.3,
+    //         duration: '400'
+    //     })
+    //     .setTween(aboutStartScene)
+    //      .addIndicators()
+    //     .addTo(controller);
 
     ///////////////////--------------- javascript code for tablet ----------- \\\\\\\\\\\\\\\\\\\\\ 
 } else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
@@ -408,8 +431,8 @@ $("#about-link").click(function() {
 } //////////////////////////////////////////end break points!!
 
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1 });
-var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1 });
+var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1.5 });
+var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1.5 });
 
 
 
@@ -429,7 +452,7 @@ new ScrollMagic.Scene({ triggerElement: "#portfolio" })
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle("#about-li", "active-me")
-    .addIndicators() 
+    //.addIndicators() 
     .addTo(controller);
 
 

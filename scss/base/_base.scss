@@ -160,11 +160,12 @@ body {
         }
     }
     p {
+        @include font-fam-size(1.2em, $main-font, 400, #383838);
         margin: 10px 0;
         text-align: center;
-        font-weight: 400;
+        // font-weight: 400;
         @include media(laptop) {
-            margin: 10px 0;
+          
             width: 80%;
         }
     }
@@ -175,6 +176,9 @@ body {
             @include media(tablet) {
                 @include font-fam-size(2em, $main-font-5, bold, #333333);
             }
+            @include media(laptop) {
+                @include font-fam-size(3em, $main-font-5, bold, #333333);
+            }
         }
         ul {
             @include flex-display(flex, row, flex-end, 80%, center);
@@ -184,8 +188,7 @@ body {
             height: 45px;
             margin: 0 4px;
             @include media(laptop) {
-                width: 30px;
-                height: 35px;
+             
             }
         }
     }

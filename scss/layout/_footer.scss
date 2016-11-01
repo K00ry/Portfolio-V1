@@ -1,5 +1,11 @@
 footer {
-    @include flex-display(flex, row, space-around, 100%, center);
+    @include flex-display(flex, column, space-around, 100%, center);
+    span{
+        @include font-fam-size(.5em, $main-font, bold, #FFFFFF);
+         @include media(tablet) {
+            font-size: .9em;
+        }
+    }
     // height: 10vh;
     background-color: #333333;
     
