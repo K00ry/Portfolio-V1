@@ -8,20 +8,19 @@
 }
 
 #portfolio {
+    overflow-y: scroll; 
     @include flex-display(flex, column, space-between, 100%, center);
-    height: 100vh;
+    // height: 100vh;
     @include media(tablet) {
-        height: 100vh;
+        // height: 100vh;
     }
-    @include media(laptop) {
-        margin-bottom: 200px;
-    }
+   
 }
 
 #about {
     @include flex-display(flex, column, space-between, 100%, center);
     height: 100vh;
     @include media(tablet) {
-        height: 100vh;
+      
     }
 }

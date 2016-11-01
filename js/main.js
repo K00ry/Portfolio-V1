@@ -5,24 +5,46 @@ if (document.documentElement.clientWidth >= 1024) {
 
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
-    $("#P1").YTPlayer();
+    $("#bgndVideo").YTPlayer();
     ///////sticky Pages\\\\\\\\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    // get all slides
-    var slides = document.querySelectorAll("div.panel");
+    // var controller = new ScrollMagic.Controller();
+    // // get all slides
+    // var slides = document.querySelectorAll("div.panel");
 
-    // create scene for every slide
-    for (var i = 0; i < slides.length; i++) {
-        new ScrollMagic.Scene({
-                triggerElement: slides[i],
-                triggerHook: 0
-            })
-            .setPin(slides[i])
-            // .addIndicators()
-            .addTo(controller);
+    // // create scene for every slide
+    // for (var i = 0; i < slides.length; i++) {
+    //     new ScrollMagic.Scene({
+    //             triggerElement: slides[i],
+    //             triggerHook: 0
+    //         })
+    //         .setPin(slides[i])
+    //         // .addIndicators()
+    //         .addTo(controller);
 
-    }
+    // }
+
+
+
+    /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+    target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
+
 
 
     //////// name fade animation \\\\\\\
@@ -65,18 +87,18 @@ if (document.documentElement.clientWidth >= 1024) {
     var controller = new ScrollMagic.Controller();
      var tweenySkills = new TimelineMax()
         .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } },0)
-        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 });
+        .to($('.skills-icons,.contact'), 4, { opacity: 1, duration: 3 });
     // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '260',
+            duration: '300',
             offset: 100
 
         })
         .setTween(tweenySkills)
-         //.addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     //////// portfolio animation \\\\\\\
@@ -90,13 +112,17 @@ if (document.documentElement.clientWidth >= 1024) {
             offset: 50
         })
         .setTween(portScene)
-        //.addIndicators()
+       // .addIndicators()
         .addTo(controller);
 
 
     ////// portfolio END animation \\\\\\\
 
     var controller = new ScrollMagic.Controller();
+
+     // var tweenyEnd = new TimelineMax()
+     //    .to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 },0)
+     //    .to($('.about-main'), 4, { opacity: 1, duration: 3 },0);
     var portEndScene = TweenMax.to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 });
     var aboutScene = new ScrollMagic.Scene({
             triggerElement: '.about-main',
@@ -107,10 +133,50 @@ if (document.documentElement.clientWidth >= 1024) {
         // .addIndicators()
         .addTo(controller);
 
+
+
+    //      ////// portfolio END animation \\\\\\\
+
+    // var controller = new ScrollMagic.Controller();
+
+    //  // var tweenyEnd = new TimelineMax()
+    //  //    .to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 },0)
+    //  //    .to($('.about-main'), 4, { opacity: 1, duration: 3 },0);
+    // var aboutStartScene = TweenMax.to($('.about-main'), 4, { opacity: 1, duration: 3});
+    // var aboutSceneStart = new ScrollMagic.Scene({
+    //         triggerElement: '.about-main',
+    //         triggerHook: 0.3,
+    //         duration: '400'
+    //     })
+    //     .setTween(aboutStartScene)
+    //      .addIndicators()
+    //     .addTo(controller);
+
     ///////////////////--------------- javascript code for tablet ----------- \\\\\\\\\\\\\\\\\\\\\ 
 } else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
     /// you tube player
     $("#P1").YTPlayer();
+
+
+
+/////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+    target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
 
 
     //////// name fade animation \\\\\\\
@@ -201,26 +267,47 @@ if (document.documentElement.clientWidth >= 1024) {
 
     ///////sticky Pages\\\\\\\\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    // get all slides
-    var slides = document.querySelectorAll("div.panel");
+    // var controller = new ScrollMagic.Controller();
+    // // get all slides
+    // var slides = document.querySelectorAll("div.panel");
 
-    // create scene for every slide
-    for (var i = 0; i < slides.length; i++) {
-        new ScrollMagic.Scene({
-                triggerElement: slides[i],
-                triggerHook: 0
-            })
-            .setPin(slides[i])
-            // .addIndicators()
-            .addTo(controller);
-    }
+    // // create scene for every slide
+    // for (var i = 0; i < slides.length; i++) {
+    //     new ScrollMagic.Scene({
+    //             triggerElement: slides[i],
+    //             triggerHook: 0
+    //         })
+    //         .setPin(slides[i])
+    //         // .addIndicators()
+    //         .addTo(controller);
+    // }
 
 
 
 
     ///////////////////--------------- javascript code for mobile ----------- \\\\\\\\\\\\\\\\\\\\\ 
 } else {
+
+
+    /////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+var target_home = $('#home').offset().top,
+   target_portfolio = $('#projects').offset().top,
+    target_about = $('.number-email').offset().top;
+
+
+
+$("#home-link").click(function() {
+    $("html, body").animate({ scrollTop: target_home }, 1500);
+});
+$("#port-link").click(function() {
+    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
+});
+
+$("#about-link").click(function() {
+    $("html, body").animate({ scrollTop: target_about }, 1500);
+});
+
 
 
     var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
@@ -263,7 +350,7 @@ if (document.documentElement.clientWidth >= 1024) {
     var controller = new ScrollMagic.Controller();
     var tween = new TimelineMax()
         .fromTo($('.port-head'), 4, { css: { fontSize: "6em" } }, { css: { fontSize: "3em" } }, 0)
-        .to($('.port-head'), 4, { y: 85, opacity: 1 }, 0);
+        .to($('.port-head'), 4, {  opacity: 1 }, 0);
 
 
     var smallerScene = new ScrollMagic.Scene({
@@ -344,28 +431,10 @@ if (document.documentElement.clientWidth >= 1024) {
 } //////////////////////////////////////////end break points!!
 
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1 });
-var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1 });
+var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1.5 });
+var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1.5 });
 
 
-/////////////////////// Scroll to click handlers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-var target_home = $('#home').offset().top,
-    target_portfolio = $('#portfolio').offset().top,
-    target_about = $('#about').offset().top;
-
-
-
-$("#home-link").click(function() {
-    $("html, body").animate({ scrollTop: target_home }, 1500);
-});
-$("#port-link").click(function() {
-    $("html, body").animate({ scrollTop: target_portfolio }, 1500);
-});
-
-$("#about-link").click(function() {
-    $("html, body").animate({ scrollTop: target_about }, 1500);
-});
 
 
 

@@ -321,7 +321,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 188214,
+		"initialSize": 307837,
 		"inputAbbreviatedPath": "\/img\/work\/tablet\/4.png",
 		"outputAbbreviatedPath": "\/img\/work\/tablet\/4.png",
 		"outputPathIsOutsideProject": 0,
@@ -338,6 +338,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/js\/jquery.mb.YTPlayer.min.js": {
 		"fileType": 64,
@@ -358,7 +367,7 @@
 		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/min\/main-min.js": {
