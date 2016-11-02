@@ -1,5 +1,28 @@
 ///////////////////--------------- javascript code for desktop ----------- \\\\\\\\\\\\\\\\\\\\\ 
 
+
+// var player;
+
+// function onYouTubeIframeAPIReady() {
+//     player = new YT.Player('yt', {
+//         events: {
+//             'onReady': onPlayerReady
+//         }
+//     });
+// }
+
+// function onPlayerReady(event) {
+//     player.mute();
+//     player.playVideo();
+// }
+
+// $(function(){
+//   $('#yt').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() +'px' });
+
+//   $(window).resize(function(){
+//     $('#yt').css({ width: $(window).innerWidth()+ 200 + 'px', height: $(window).innerHeight()+ 200 + 'px' });
+//   });
+// });
 if (document.documentElement.clientWidth >= 1024) {
 
 
@@ -86,19 +109,19 @@ $("#about-link").click(function() {
 
     var controller = new ScrollMagic.Controller();
      var tweenySkills = new TimelineMax()
-        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } },0)
+        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3em" } },0)
         .to($('.skills-icons,.contact'), 4, { opacity: 1, duration: 3 });
     // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
 
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '300',
+            duration: '200',
             offset: 100
 
         })
         .setTween(tweenySkills)
-        // .addIndicators()
+         //.addIndicators()
         .addTo(controller);
 
     //////// portfolio animation \\\\\\\
@@ -310,12 +333,7 @@ $("#about-link").click(function() {
 
 
 
-    var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
-    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
-    new ScrollMagic.Scene({ triggerElement: "#about" })
-        .setTween(backWhite)
-        // .addIndicators() 
-        .addTo(controller);
+    
 
 
 
@@ -433,8 +451,13 @@ $("#about-link").click(function() {
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1.5 });
 var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1.5 });
-
-
+/////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
+    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
+    new ScrollMagic.Scene({ triggerElement: "#about" })
+        .setTween(backWhite)
+        // .addIndicators() 
+        .addTo(controller);
 
 
 

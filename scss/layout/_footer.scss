@@ -10,7 +10,7 @@ footer {
     background-color: #333333;
     
     @include media(landscape) {
-        height: 30px;
+        height: 40px;
     }
     @include media(laptop) {
         height: initial;
