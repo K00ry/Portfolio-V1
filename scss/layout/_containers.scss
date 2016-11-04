@@ -9,6 +9,9 @@
     h1 {
         text-align: center;
         @include font-fam-size(5em, $main-font-5, bold, #333333);
+         @include media(landscape) {
+            margin: 20px auto;
+        }
     }
     p {
         @include font-fam-size(2em, $main-font-5, bold, #333333);
@@ -30,6 +33,9 @@
     @include media(desktop) {
         width: 80%;
     }
+     @include media(landscape) {
+            margin:auto;
+        }
     h1 {
         opacity: 0;
         @include font-fam-size(4.8em, $main-font-5, bold, #333333);
