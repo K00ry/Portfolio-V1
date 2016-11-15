@@ -304,6 +304,13 @@ $("#about-link").click(function() {
     //         // .addIndicators()
     //         .addTo(controller);
     // }
+    /////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
+    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
+    new ScrollMagic.Scene({ triggerElement: "#about" })
+        .setTween(backWhite)
+        // .addIndicators() 
+        .addTo(controller);
 
 
 
@@ -444,6 +451,13 @@ $("#about-link").click(function() {
         .setTween(portEndScene)
         //.addIndicators()
         .addTo(controller);
+        /////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
+    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
+    new ScrollMagic.Scene({ triggerElement: "#about" })
+        .setTween(backWhite)
+        // .addIndicators() 
+        .addTo(controller);
 
 
 } //////////////////////////////////////////end break points!!
@@ -451,13 +465,7 @@ $("#about-link").click(function() {
 /////////////////////// intro animation \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 var fadeIn = TweenMax.staggerFrom('.main-meme', 2, { scale: 0.8, opacity: 0, delay: 1.5 });
 var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, delay: 1.5 });
-/////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
-    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
-    new ScrollMagic.Scene({ triggerElement: "#about" })
-        .setTween(backWhite)
-        // .addIndicators() 
-        .addTo(controller);
+
 
 
 

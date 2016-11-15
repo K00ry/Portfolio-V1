@@ -14,7 +14,9 @@
     @include media(tablet) {
          // height: 120vh;
     }
-   
+    @include media(landscape) {
+            height: 120vh;
+        }
 }
 
 #about {
@@ -24,4 +26,7 @@
 
       
     }
+     @include media(landscape) {
+            height: auto;
+        }
 }
