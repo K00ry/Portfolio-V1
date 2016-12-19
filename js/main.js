@@ -1,28 +1,15 @@
+///////////////////--------------- Modules ----------- \\\\\\\\\\\\\\\\\\\\\ 
+var YTPlayer = require('./jquery.mb.YTPlayer.js');
+var jQuery = require('../node_modules/jquery/dist/jquery.js');
+
+var TweenMax = require('../node_modules/gsap/src/uncompressed/TweenMax.js');
+var ScrollMagic = require('../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js');
+var setTween = require('../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js');
+
+
 ///////////////////--------------- javascript code for desktop ----------- \\\\\\\\\\\\\\\\\\\\\ 
 
 
-// var player;
-
-// function onYouTubeIframeAPIReady() {
-//     player = new YT.Player('yt', {
-//         events: {
-//             'onReady': onPlayerReady
-//         }
-//     });
-// }
-
-// function onPlayerReady(event) {
-//     player.mute();
-//     player.playVideo();
-// }
-
-// $(function(){
-//   $('#yt').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() +'px' });
-
-//   $(window).resize(function(){
-//     $('#yt').css({ width: $(window).innerWidth()+ 200 + 'px', height: $(window).innerHeight()+ 200 + 'px' });
-//   });
-// });
 if (document.documentElement.clientWidth >= 1024) {
 
 
