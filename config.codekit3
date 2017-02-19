@@ -9,6 +9,30 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/.idea\/modules.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/modules.xml",
+		"oF": 0
+		},
+	"\/.idea\/portfolio.iml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/portfolio.iml",
+		"oF": 0
+		},
+	"\/.idea\/vcs.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/vcs.xml",
+		"oF": 0
+		},
+	"\/.idea\/workspace.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/workspace.xml",
+		"oF": 0
+		},
 	"\/css\/application.css": {
 		"aP": 0,
 		"bl": 0,

@@ -339,112 +339,112 @@ $("#about-link").click(function() {
 
 
 
-    ////////////////////////////////////////////////main head disappear\\\\\\\\\\\\\\\\\\
-    var controller = new ScrollMagic.Controller();
-    var header = $('#home-wrap');
-    var abbas = TweenMax.to(header, 2, { opacity: 0, y: -80 });
+//     ////////////////////////////////////////////////main head disappear\\\\\\\\\\\\\\\\\\
+//     var controller = new ScrollMagic.Controller();
+//     var header = $('#home-wrap');
+//     var abbas = TweenMax.to(header, 2, { opacity: 0, y: -80 });
 
-    var headerScene = new ScrollMagic.Scene({
-            triggerElement: header,
-            triggerHook: 0.2,
-            duration: '300'
-        })
-        .setTween(abbas)
-        // .addIndicators()
-        .addTo(controller);
-
-
-
-
-
-    ////// portfolio H1 size decrease \\\\\\\
-
-    var controller = new ScrollMagic.Controller();
-    var tween = new TimelineMax()
-        .fromTo($('.port-head'), 4, { css: { fontSize: "6em" } }, { css: { fontSize: "3em" } }, 0)
-        .to($('.port-head'), 4, {  opacity: 1 }, 0);
-
-
-    var smallerScene = new ScrollMagic.Scene({
-            triggerElement: '.port-head',
-            triggerHook: 0.7,
-            duration: '300'
-
-        })
-        .setTween(tween)
-        // .addIndicators({ name: "jasem" })
-        .addTo(controller);
-
-
-   // // //////// SKILLS H1 size decrease \\\\\\\
-
-    var controller = new ScrollMagic.Controller();
-     var tweenySkills = new TimelineMax()
-        .fromTo($('.port-head-2'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } },0)
-        .to($('.skills-icons'), 4, { opacity: 1, duration: 3 },0);
-    // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
-
-    var smallerScene2 = new ScrollMagic.Scene({
-            triggerElement: '.about-main',
-            triggerHook: 0.6,
-            duration: '100',
-            offset: 100
-
-        })
-        .setTween(tweenySkills)
-         //.addIndicators()
-        .addTo(controller);
+//     var headerScene = new ScrollMagic.Scene({
+//             triggerElement: header,
+//             triggerHook: 0.2,
+//             duration: '300'
+//         })
+//         .setTween(abbas)
+//         // .addIndicators()
+//         .addTo(controller);
 
 
 
 
 
-    //////// portfolio animation \\\\\\\
+//     ////// portfolio H1 size decrease \\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    // var tl = new TimelineMax();
-    //     tl
-    //         .from('.1',0.5,{ y:20,opacity:1})
-    //         .from('.2',0.5,{ y:20,opacity:1})
-    //         .from('.3',0.5,{ y:20,opacity:1})
-    //         .from('.4',0.5,{ y:20,opacity:1})
-    //         .from('.5',0.5,{ y:20,opacity:1});
-
-    var portScene = TweenMax.to($('#mobile-portfolio'), 4, { opacity: 1, duration: 3 });
-    var headerScene = new ScrollMagic.Scene({
-            triggerElement: '#portfolio',
-            triggerHook: 0.6,
-            duration: '300',
-            offset: 80
-        })
-        .setTween(portScene)
-        //.addIndicators()
-        .addTo(controller);
+//     var controller = new ScrollMagic.Controller();
+//     var tween = new TimelineMax()
+//         .fromTo($('.port-head'), 4, { css: { fontSize: "6em" } }, { css: { fontSize: "3em" } }, 0)
+//         .to($('.port-head'), 4, {  opacity: 1 }, 0);
 
 
+//     var smallerScene = new ScrollMagic.Scene({
+//             triggerElement: '.port-head',
+//             triggerHook: 0.7,
+//             duration: '300'
+
+//         })
+//         .setTween(tween)
+//         // .addIndicators({ name: "jasem" })
+//         .addTo(controller);
+
+
+//    // // //////// SKILLS H1 size decrease \\\\\\\
+
+//     var controller = new ScrollMagic.Controller();
+//      var tweenySkills = new TimelineMax()
+//         .fromTo($('.port-head-2'), 4, { css: { fontSize: "5em" } }, { css: { fontSize: "3em" } },0)
+//         .to($('.skills-icons'), 4, { opacity: 1, duration: 3 },0);
+//     // var smallScene2 = TweenMax.fromTo($('.port-head-2'), 4, { css: { fontSize: "5.5em" } }, { css: { fontSize: "3.5em" } });
+
+//     var smallerScene2 = new ScrollMagic.Scene({
+//             triggerElement: '.about-main',
+//             triggerHook: 0.6,
+//             duration: '100',
+//             offset: 100
+
+//         })
+//         .setTween(tweenySkills)
+//          //.addIndicators()
+//         .addTo(controller);
 
 
 
 
-    //////// portfolio END animation \\\\\\\
 
-    var controller = new ScrollMagic.Controller();
-    var portEndScene = TweenMax.to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 });
-    var aboutScene = new ScrollMagic.Scene({
-            triggerElement: '.about-main',
-            triggerHook: 0.9,
-            duration: '300'
-        })
-        .setTween(portEndScene)
-        //.addIndicators()
-        .addTo(controller);
-        /////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
-    var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
-    new ScrollMagic.Scene({ triggerElement: "#about" })
-        .setTween(backWhite)
-        // .addIndicators() 
-        .addTo(controller);
+//     //////// portfolio animation \\\\\\\
+
+//     var controller = new ScrollMagic.Controller();
+//     // var tl = new TimelineMax();
+//     //     tl
+//     //         .from('.1',0.5,{ y:20,opacity:1})
+//     //         .from('.2',0.5,{ y:20,opacity:1})
+//     //         .from('.3',0.5,{ y:20,opacity:1})
+//     //         .from('.4',0.5,{ y:20,opacity:1})
+//     //         .from('.5',0.5,{ y:20,opacity:1});
+
+//     var portScene = TweenMax.to($('#mobile-portfolio'), 4, { opacity: 1, duration: 3 });
+//     var headerScene = new ScrollMagic.Scene({
+//             triggerElement: '#portfolio',
+//             triggerHook: 0.6,
+//             duration: '300',
+//             offset: 80
+//         })
+//         .setTween(portScene)
+//         //.addIndicators()
+//         .addTo(controller);
+
+
+
+
+
+
+//     //////// portfolio END animation \\\\\\\
+
+//     var controller = new ScrollMagic.Controller();
+//     var portEndScene = TweenMax.to($('#projects'), 4, { opacity: 0, duration: 3, y: -80 });
+//     var aboutScene = new ScrollMagic.Scene({
+//             triggerElement: '.about-main',
+//             triggerHook: 0.9,
+//             duration: '300'
+//         })
+//         .setTween(portEndScene)
+//         //.addIndicators()
+//         .addTo(controller);
+//         /////////////////////// nav back groung white when nedded \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "450" } });
+//     var backWhite = TweenMax.to($('.navbar'), 4, { css: { background: '#fff' } });
+//     new ScrollMagic.Scene({ triggerElement: "#about" })
+//         .setTween(backWhite)
+//         // .addIndicators() 
+//         .addTo(controller);
 
 
 } //////////////////////////////////////////end break points!!

@@ -1,3 +1,8 @@
+#main-of-main{
+
+}
+
+
 #home {
     @include flex-display(flex, column, space-between, 100%, center);
     height: 100vh;
@@ -8,22 +13,23 @@
 }
 
 #portfolio {
-    overflow-y: scroll; 
+   
     @include flex-display(flex, column, space-between, 100%, center);
+     height: 100vh;
     
     @include media(tablet) {
-         // height: 120vh;
+         height: auto;
     }
     @include media(landscape) {
-            height: 120vh;
+            // height: 120vh;
         }
 }
 
 #about {
     @include flex-display(flex, column, space-between, 100%, center);
-    height: 100vh;
+    
     @include media(tablet) {
-
+        // height: 100vh;
       
     }
      @include media(landscape) {
