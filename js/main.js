@@ -1,7 +1,7 @@
 ///////////////////--------------- Modules ----------- \\\\\\\\\\\\\\\\\\\\\ 
-var YTPlayer = require('./jquery.mb.YTPlayer.js');
+// var YTPlayer = require('./jquery.mb.YTPlayer.js');
 var jQuery = require('../node_modules/jquery/dist/jquery.js');
-
+var bootstrap = require('../node_modules/bootstrap/dist/js/bootstrap.js');
 var TweenMax = require('../node_modules/gsap/src/uncompressed/TweenMax.js');
 var ScrollMagic = require('../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js');
 var setTween = require('../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js');
@@ -15,7 +15,7 @@ if (document.documentElement.clientWidth >= 1024) {
 
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
-    $("#bgndVideo").YTPlayer();
+    // $("#bgndVideo").YTPlayer();
     ///////sticky Pages\\\\\\\\\\\\\
 
     // var controller = new ScrollMagic.Controller();
@@ -165,7 +165,7 @@ $("#about-link").click(function() {
     ///////////////////--------------- javascript code for tablet ----------- \\\\\\\\\\\\\\\\\\\\\ 
 } else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
     /// you tube player
-    $("#P1").YTPlayer();
+    // $("#P1").YTPlayer();
 
 
 
