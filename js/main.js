@@ -104,7 +104,7 @@ $("#about-link").click(function() {
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '200',
+            duration: '100',
             offset: 100
 
         })
@@ -245,7 +245,7 @@ $("#about-link").click(function() {
 
         })
         .setTween(tweenySkills)
-        // .addIndicators()
+         .addIndicators()
         .addTo(controller);
 
 
@@ -388,7 +388,7 @@ $("#about-link").click(function() {
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '100',
+            duration: '60',
             offset: 100
 
         })

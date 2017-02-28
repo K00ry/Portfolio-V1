@@ -23,6 +23,10 @@ body {
         justify-content: flex-start;
     }
 }
+.navbar-nav{
+margin:0;
+
+}
 
 .nav-item a {
     transition: all .5s;
@@ -55,7 +59,7 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: inherit;
-    padding: 0;
+    // padding: 0;
 }
 
 .overlay-contentscale.open {
@@ -76,6 +80,7 @@ body {
 
 #overlay {
     @include flex-display(flex, column, flex-start, 100%, center);
+
     position: fixed;
     height: 100%;
     top: 0;
@@ -89,7 +94,7 @@ body {
         width: 100%;
         background-color: #000000;
         @include font-fam-size(4em, $main-font-5, bold, #EBEBEB);
-        margin: 10px auto;
+        margin: 0 auto;
         text-align: center;
         @include media(landscape) {
             font-size: 2em;
@@ -105,16 +110,18 @@ body {
         }
         ul {
             @include flex-display(flex, row, space-around, 80%, center);
+            flex-wrap:wrap;
             @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
+            padding: 20px 0 20px 0;
             @include media(landscape) {}
             .tech-title {
                 img {
                     width: 30px;
                     height: 35px;
-                    @include media(landscape) {
-                        width: 20px;
-                        height: 25px;
-                    }
+                    // @include media(landscape) {
+                    //     width: 20px;
+                    //     height: 25px;
+                    // }
                 }
             }
         }
@@ -123,20 +130,25 @@ body {
 
 .img-and-caption {
     @include flex-display(flex, column, space-around, 100%, center);
-    @include media(landscape) {}
+    @include media(landscape) {
+        padding: 10px 0 10px 0;
+    }
     img {
         background-color: #CCCCCC;
         width: 100%;
         max-width: 400px;
+        padding: 10px 0 10px 0;
         @include media(landscape) {
             width: 55%;
+            padding: 10px 0 10px 0;
         }
     }
     p {
         @include font-fam-size(0.8em, $main-font-3, 200, #000);
         width: 80%;
         text-align: center;
-        margin: 10px auto;
+         font-size: 0.7em;
+        padding: 10px 0 10px 0;
         @include media(landscape) {
             font-size: 0.7em;
             margin: 0;
