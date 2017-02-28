@@ -79,6 +79,7 @@
         display: flex;
         align-items: center;
         margin: 5px auto;
+
         @include media(landscape) {
             @include flex-display(flex, column, space-around, 20%, center);
         }
@@ -89,6 +90,7 @@
             margin: 0;
         }
         .img-border {
+             cursor: pointer;
             margin: 10px 0;
             box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
             border-radius: 50%;
@@ -118,6 +120,7 @@
             @include font-fam-size(.7em, $main-font-3, bold, #383838);
             margin: 10px 0;
             padding: 0 20px;
+             cursor: pointer;
             @include media(landscape) {
                 text-align: center;
             }
@@ -145,6 +148,8 @@
         // top: 80px;
         width: 90%;
         background-color: #fff;
+        height: 50vh;
+        margin-bottom: auto;
     }
      @include media(landscape) {
           margin-bottom: 0;
