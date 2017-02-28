@@ -1,5 +1,5 @@
 .links {
-    margin: 20px;
+    margin-bottom:  40px ;
     @include flex-display(flex, row, space-between, 40%, center);
     @include media(landscape) {
         margin: 0;
@@ -8,7 +8,7 @@
 
     a {
         @include media(landscape) {
-            font-size: 1.8em;
+            font-size: 1.6em;
             box-shadow: none;
         }
          @include media(tablet) {
@@ -42,4 +42,7 @@
     @include media(laptop) {
         padding-bottom: 20px;
     }
+     @include media(landscape) {
+         padding-bottom: 10px;
+        }
 }
