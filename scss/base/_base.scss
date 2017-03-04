@@ -1,17 +1,23 @@
 //bootsrtap corrections 
+.panel {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 0;
+}
 
-.panel{
-background-color: transparent;
-box-shadow: none;
-margin-bottom: 0;
-
+ .nav>li>a:hover {
+   
+   background-color: inherit;
+}
+ .nav>li>a:focus {
+   
+   background-color: inherit;
 }
 
 
-
+////////////////////////////BASE\\\\\\\\\\\\\\\\\\\\\\\\\\\
 body {
     position: relative;
-   
 }
 
 .nav {
@@ -23,34 +29,42 @@ body {
         justify-content: flex-start;
     }
 }
-.navbar-nav{
-margin:0;
 
+.navbar-nav {
+    margin: 0;
 }
 
 .nav-item a {
+    outline: none;
     transition: all .5s;
     @include font-fam-size(2em, $main-font-5, bold, #333333);
     @include media(tablet) {
         font-size: 3em;
     }
-  
     @include media(desktop) {
         font-size: 4em;
         margin: 20px;
     }
-    &:hover {
-        color: rgba(0, 0, 0, .3);
-    }
+    // &:hover {
+    //     color: rgba(0, 0, 0, .3);
+    // }
 }
 
+// .nav-item a:focus {
+//     border-radius: 50%;
+//     background-color: hsl(15, 76%, 60%);
+//     box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+//     // color: #333333;
+// }
 .active-me a {
-    border-radius: 50%;
-    background-color: hsl(15, 76%, 60%);
-    box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
-    color: #333333;
+    // border-radius: 50%;
+    // background-color: hsl(15, 76%, 60%);
+    // box-shadow: 0 0 0 5px hsl(15, 76%, 70%), 0 0 0 10px hsl(30, 76%, 70%), 0 0 0 15px hsl(44, 76%, 70%);
+    color: #e7724b;
 }
 
+//  .active-me a:hover{
+//     }
 .active-intro {
     background-color: hsl(15, 76%, 60%);
     box-shadow: 0 0 0 15px hsl(15, 76%, 70%), 0 0 0 30px hsl(30, 76%, 70%), 0 0 0 45px hsl(44, 76%, 70%);
@@ -58,8 +72,10 @@ margin:0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: inherit;
+    // color: inherit;
     // padding: 0;
+    // &:hover,&:focus{{background-color: transparent;}
+    // &:visited{background-color: initial;}
 }
 
 .overlay-contentscale.open {
@@ -80,7 +96,6 @@ margin:0;
 
 #overlay {
     @include flex-display(flex, column, flex-start, 100%, center);
-
     position: fixed;
     height: 100%;
     top: 0;
@@ -110,7 +125,7 @@ margin:0;
         }
         ul {
             @include flex-display(flex, row, space-around, 80%, center);
-            flex-wrap:wrap;
+            flex-wrap: wrap;
             @include font-fam-size(.7em, $main-font-3, bold, #EBEBEB);
             padding: 20px 0 20px 0;
             @include media(landscape) {}
@@ -147,7 +162,7 @@ margin:0;
         @include font-fam-size(0.8em, $main-font-3, 200, #000);
         width: 80%;
         text-align: center;
-         font-size: 0.7em;
+        font-size: 0.7em;
         padding: 10px 0 10px 0;
         @include media(landscape) {
             font-size: 0.7em;
@@ -190,7 +205,6 @@ margin:0;
         text-align: center;
         // font-weight: 400;
         @include media(laptop) {
-          
             width: 80%;
         }
     }
@@ -212,16 +226,13 @@ margin:0;
             width: 40px;
             height: 45px;
             margin: 0 4px;
-            @include media(laptop) {
-             
-            }
+            @include media(laptop) {}
         }
     }
-     @include media(desktop) {
+    @include media(desktop) {
         width: 70%;
     }
 }
-
 
 // .video-background {
 //   background: #fff;
@@ -237,7 +248,6 @@ margin:0;
 //   width: 100%;
 //   height: 100%;
 //   pointer-events: none;
- 
 // }
 // .video-background iframe {
 //   position: absolute;
@@ -247,14 +257,4 @@ margin:0;
 //   height: 100%;
 //   pointer-events: none;
 //   opacity: 0.5;
-
 // }
-
-
-
-
-
-
-
-
-
