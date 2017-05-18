@@ -7,7 +7,7 @@
 		"uuidString": "B7A031AF-08F1-40CD-A5B0-178FF25CD86F"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/.idea\/modules.xml": {
 		"ft": 8192,
@@ -62,10 +62,10 @@
 	"\/dist\/bundle.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/dist\/min\/bundle-min.js",
-		"oF": 1,
-		"sC": 0,
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/dist\/min\/bundle-min.js": {
@@ -83,7 +83,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/desk\/1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/desk\/2.png": {
 		"ft": 32768,
@@ -91,7 +94,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/desk\/2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/desk\/3.png": {
 		"ft": 32768,
@@ -99,7 +105,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/desk\/3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/desk\/4.png": {
 		"ft": 32768,
@@ -107,7 +116,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/desk\/4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/desk\/5.png": {
 		"ft": 32768,
@@ -115,7 +127,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/desk\/5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/icons\/facebook.svg": {
 		"ft": 2097152,
@@ -153,7 +168,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/ai 2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/ai.png": {
 		"ft": 32768,
@@ -161,7 +179,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/ai.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/bootstrap.png": {
 		"ft": 32768,
@@ -169,7 +190,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/bootstrap.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/css.png": {
 		"ft": 32768,
@@ -177,7 +201,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/css.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/git.svg": {
 		"ft": 2097152,
@@ -195,7 +222,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/green.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/gulp1.png": {
 		"ft": 32768,
@@ -203,7 +233,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/gulp1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/html.png": {
 		"ft": 32768,
@@ -211,7 +244,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/html.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/jquery.png": {
 		"ft": 32768,
@@ -219,7 +255,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/jquery.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/js.png": {
 		"ft": 32768,
@@ -227,7 +266,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/logos\/js.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/logos\/sass.svg": {
 		"ft": 2097152,
@@ -245,7 +287,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/mobile\/1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/mobile\/2.png": {
 		"ft": 32768,
@@ -253,7 +298,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/mobile\/2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/mobile\/3.png": {
 		"ft": 32768,
@@ -261,7 +309,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/mobile\/3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/mobile\/4.png": {
 		"ft": 32768,
@@ -269,7 +320,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/mobile\/4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/mobile\/5.png": {
 		"ft": 32768,
@@ -277,7 +331,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/mobile\/5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/responsive\/1.png": {
 		"ft": 32768,
@@ -285,7 +342,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/responsive\/1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/responsive\/2.png": {
 		"ft": 32768,
@@ -293,7 +353,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/responsive\/2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/responsive\/3.png": {
 		"ft": 32768,
@@ -301,7 +364,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/responsive\/3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/responsive\/4.png": {
 		"ft": 32768,
@@ -309,7 +375,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/responsive\/4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/responsive\/5.png": {
 		"ft": 32768,
@@ -317,7 +386,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/responsive\/5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/tablet\/1.png": {
 		"ft": 32768,
@@ -325,7 +397,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/tablet\/1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/tablet\/2.png": {
 		"ft": 32768,
@@ -333,7 +408,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/tablet\/2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/tablet\/3.png": {
 		"ft": 32768,
@@ -341,7 +419,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/tablet\/3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/tablet\/4.png": {
 		"ft": 32768,
@@ -349,7 +430,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/tablet\/4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/work\/tablet\/5.png": {
 		"ft": 32768,
@@ -357,7 +441,10 @@
 		"oA": 0,
 		"oAP": "\/img\/work\/tablet\/5.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -376,7 +463,7 @@
 		},
 	"\/js\/main.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/main-min.js",
 		"oF": 0,
@@ -1939,11 +2026,11 @@
 		},
 	"\/webpack.config.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/min\/webpack.config-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		}
 	},
@@ -2627,6 +2714,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2911,6 +3002,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -3106,6 +3201,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -3706,7 +3805,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3729,14 +3829,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -3799,7 +3891,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
