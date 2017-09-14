@@ -1,7 +1,7 @@
 ///////////////////--------------- Modules ----------- \\\\\\\\\\\\\\\\\\\\\ 
 
 var jQuery = require('../node_modules/jquery/dist/jquery.js');
-var YTPlayer = require('./jquery.mb.YTPlayer.js');
+// var YTPlayer = require('./jquery.mb.YTPlayer.js');
 var bootstrap = require('../node_modules/bootstrap/dist/js/bootstrap.js');
 var TweenMax = require('../node_modules/gsap/src/uncompressed/TweenMax.js');
 var ScrollMagic = require('../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js');
@@ -14,7 +14,7 @@ var setTween = require('../node_modules/scrollmagic/scrollmagic/uncompressed/plu
 
 if (document.documentElement.clientWidth >= 1024) {
 
-$("#bgndVideo").YTPlayer();
+// $("#bgndVideo").YTPlayer();
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
     // $("#bgndVideo").YTPlayer();

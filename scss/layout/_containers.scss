@@ -148,7 +148,7 @@
         // top: 80px;
         width: 90%;
         background-color: #fff;
-        height: 50vh;
+        // height: 50vh;
         margin-bottom: auto;
     }
      @include media(landscape) {
@@ -186,7 +186,7 @@
             @include flex-display(flex, row, space-around, 100%, center);
             flex-wrap: wrap;
             @include media(tablet) {
-                width: auto;
+                width: 70%;
             }
 
             @include media(laptop) {width: auto;}
