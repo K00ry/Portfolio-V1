@@ -6,6 +6,7 @@
     @-moz-document url-prefix() {
         position: sticky;
     }
+
     h1 {
         text-align: center;
         @include font-fam-size(5em, $main-font-5, bold, #333333);
@@ -78,6 +79,7 @@
         display: flex;
         align-items: center;
         margin: 5px auto;
+
         @include media(landscape) {
             @include flex-display(flex, column, space-around, 20%, center);
         }
@@ -88,6 +90,7 @@
             margin: 0;
         }
         .img-border {
+             cursor: pointer;
             margin: 10px 0;
             box-shadow: 0 0 0 5px hsl(0, 0%, 70%), 0 0 0 10px hsl(0, 0%, 80%);
             border-radius: 50%;
@@ -117,6 +120,7 @@
             @include font-fam-size(.7em, $main-font-3, bold, #383838);
             margin: 10px 0;
             padding: 0 20px;
+             cursor: pointer;
             @include media(landscape) {
                 text-align: center;
             }
@@ -133,15 +137,23 @@
     transition: all .5s;
     @include flex-display(flex, column, space-between, 100%, center);
     margin: auto;
+     margin-bottom: 15%;
     @include media(tablet) {
         padding: 1em;
+        margin-bottom: 80px;
+
     }
     @include media(laptop) {
         // opacity: 0;
         // top: 80px;
         width: 90%;
         background-color: #fff;
+        // height: 50vh;
+        margin-bottom: auto;
     }
+     @include media(landscape) {
+          margin-bottom: 0;
+        }
     .port-head-2 {
         @include font-fam-size(5em, $main-font-5, bold, #333333);
         margin: 0 auto;
@@ -174,7 +186,7 @@
             @include flex-display(flex, row, space-around, 100%, center);
             flex-wrap: wrap;
             @include media(tablet) {
-                width: auto;
+                width: 70%;
             }
 
             @include media(laptop) {width: auto;}

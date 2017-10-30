@@ -1,34 +1,23 @@
+///////////////////--------------- Modules ----------- \\\\\\\\\\\\\\\\\\\\\ 
+
+var jQuery = require('../node_modules/jquery/dist/jquery.js');
+// var YTPlayer = require('./jquery.mb.YTPlayer.js');
+var bootstrap = require('../node_modules/bootstrap/dist/js/bootstrap.js');
+var TweenMax = require('../node_modules/gsap/src/uncompressed/TweenMax.js');
+var ScrollMagic = require('../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js');
+var addIndicators = require('../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js');
+var setTween = require('../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js');
+
+
 ///////////////////--------------- javascript code for desktop ----------- \\\\\\\\\\\\\\\\\\\\\ 
 
 
-// var player;
-
-// function onYouTubeIframeAPIReady() {
-//     player = new YT.Player('yt', {
-//         events: {
-//             'onReady': onPlayerReady
-//         }
-//     });
-// }
-
-// function onPlayerReady(event) {
-//     player.mute();
-//     player.playVideo();
-// }
-
-// $(function(){
-//   $('#yt').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() +'px' });
-
-//   $(window).resize(function(){
-//     $('#yt').css({ width: $(window).innerWidth()+ 200 + 'px', height: $(window).innerHeight()+ 200 + 'px' });
-//   });
-// });
 if (document.documentElement.clientWidth >= 1024) {
 
-
+// $("#bgndVideo").YTPlayer();
 
     /////////// YOU TUBE PLAYER \\\\\\\\\\\
-    $("#bgndVideo").YTPlayer();
+    // $("#bgndVideo").YTPlayer();
     ///////sticky Pages\\\\\\\\\\\\\
 
     // var controller = new ScrollMagic.Controller();
@@ -116,7 +105,7 @@ $("#about-link").click(function() {
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '200',
+            duration: '100',
             offset: 100
 
         })
@@ -178,7 +167,7 @@ $("#about-link").click(function() {
     ///////////////////--------------- javascript code for tablet ----------- \\\\\\\\\\\\\\\\\\\\\ 
 } else if (document.documentElement.clientWidth < 1024 && document.documentElement.clientWidth > 543) {
     /// you tube player
-    $("#P1").YTPlayer();
+    // $("#P1").YTPlayer();
 
 
 
@@ -257,7 +246,7 @@ $("#about-link").click(function() {
 
         })
         .setTween(tweenySkills)
-        // .addIndicators()
+         //.addIndicators()
         .addTo(controller);
 
 
@@ -358,12 +347,12 @@ $("#about-link").click(function() {
     var abbas = TweenMax.to(header, 2, { opacity: 0, y: -80 });
 
     var headerScene = new ScrollMagic.Scene({
-            triggerElement: header,
+            
             triggerHook: 0.2,
             duration: '300'
         })
         .setTween(abbas)
-        // .addIndicators()
+         // .addIndicators()
         .addTo(controller);
 
 
@@ -400,7 +389,7 @@ $("#about-link").click(function() {
     var smallerScene2 = new ScrollMagic.Scene({
             triggerElement: '.about-main',
             triggerHook: 0.6,
-            duration: '100',
+            duration: '60',
             offset: 100
 
         })
@@ -475,14 +464,26 @@ var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, del
 var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "150" } });
 new ScrollMagic.Scene({ triggerElement: "#home" })
     .setClassToggle("#home-li", "active-me")
+    // .on("progress",function(){     
+    //     $('#home-link').focus();
+    // })
+
+    ////////
     //.addIndicators() 
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#portfolio" })
     .setClassToggle("#portfolio-li", "active-me")
+    // .on("enter leave",function(){      
+    //     $('#port-link').focus();
+      
+    // })
     //.addIndicators() 
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle("#about-li", "active-me")
+    // .on("enter leave",function(){     
+    //     $('#about-link').focus();
+    // })
     //.addIndicators() 
     .addTo(controller);
 

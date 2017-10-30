@@ -7,5 +7,29 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kourosh Mirzaei",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "imports-loader": "^0.7.0",
+    "jquery": "^3.1.1",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gsap": "^1.19.0",
+    "http-server": "^0.9.0",
+    "imports-loader": "^0.7.0",
+    "jquery": "^3.1.1",
+    "requirejs": "^2.3.2",
+    "scrollmagic": "^2.0.5",
+    "tether-1.3.3": "^1.3.3",
+    "webpack": "^3.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K00ry/Portfolio-V1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K00ry/Portfolio-V1/issues"
+  },
+  "homepage": "https://github.com/K00ry/Portfolio-V1#readme"
 }
