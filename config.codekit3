@@ -9,23 +9,11 @@
 	],
 "creatorBuild": "25900",
 "files": {
-<<<<<<< HEAD
 	"\/.idea\/modules.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/modules.xml",
 		"oF": 0
-=======
-	"\/css\/application.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/application-ck.css",
-		"oF": 0,
-		"oS": 0
->>>>>>> master
 		},
 	"\/.idea\/portfolio.iml": {
 		"ft": 8192,
@@ -45,17 +33,15 @@
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/css\/application.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/application-ck.css",
+		"oA": 0,
+		"oAP": "\/css\/application-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/css\/application.css.map": {
 		"ft": 8192,
@@ -63,19 +49,16 @@
 		"oAP": "\/css\/application.css.map",
 		"oF": 0
 		},
->>>>>>> not-sure,-webpack!
 	"\/css\/jquery.mb.YTPlayer.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/jquery.mb.YTPlayer.min-ck.css",
+		"oAP": "\/css\/jquery.mb.YTPlayer.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/dist\/bundle.js": {
 		"ft": 64,
 		"ma": 0,
@@ -86,7 +69,6 @@
 		"sC": 1,
 		"tS": 0
 		},
->>>>>>> not-sure,-webpack!
 	"\/dist\/min\/bundle-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -465,55 +447,29 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> not-sure,-webpack!
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-<<<<<<< HEAD
-	"\/js\/jquery.mb.YTPlayer.min.js": {
-=======
 	"\/js\/main.js": {
->>>>>>> not-sure,-webpack!
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-<<<<<<< HEAD
-		"oAP": "\/js\/min\/jquery.mb.YTPlayer.min-min.js",
-=======
 		"oAP": "\/js\/min\/main-min.js",
->>>>>>> not-sure,-webpack!
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
->>>>>>> master
 		},
-<<<<<<< HEAD
-	"\/js\/jquery.mb.YTPlayer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-<<<<<<< HEAD
-		"oAP": "\/js\/min\/jquery.mb.YTPlayer-min.js",
-=======
-		"oAP": "\/js\/min\/main-min.js",
-=======
 	"\/js\/min\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/min\/min\/main-min-min.js",
->>>>>>> not-sure,-webpack!
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -523,12 +479,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-<<<<<<< HEAD
-		"oAP": "\/js\/min\/min\/main-min-min.js",
->>>>>>> master
-=======
 		"oAP": "\/min\/min\/webpack.config-min-min.js",
->>>>>>> not-sure,-webpack!
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1838,6 +1789,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/scss\/base\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/base\/_index.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1981,6 +1945,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/layout\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/layout\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2045,8 +2022,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-<<<<<<< HEAD
-=======
 		},
 	"\/video\/ThisCity.mp4": {
 		"ft": 8192,
@@ -2069,7 +2044,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
->>>>>>> not-sure,-webpack!
 		}
 	},
 "hooks": [
@@ -2881,8 +2855,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -2901,7 +2875,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -3109,7 +3083,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -3130,14 +3104,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -3154,7 +3128,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -3170,7 +3144,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -3193,12 +3167,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -3206,18 +3180,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -3342,7 +3316,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -3354,10 +3328,10 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -3835,15 +3809,15 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
-		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -3904,8 +3878,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -3916,7 +3890,7 @@
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -4176,7 +4150,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
