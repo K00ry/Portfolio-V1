@@ -464,14 +464,26 @@ var fadeInNav = TweenMax.staggerFrom('.navbar', 2, { scale: 0.5, opacity: 0, del
 var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: 0.1, duration: "150" } });
 new ScrollMagic.Scene({ triggerElement: "#home" })
     .setClassToggle("#home-li", "active-me")
+    // .on("progress",function(){     
+    //     $('#home-link').focus();
+    // })
+
+    ////////
     //.addIndicators() 
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#portfolio" })
     .setClassToggle("#portfolio-li", "active-me")
+    // .on("enter leave",function(){      
+    //     $('#port-link').focus();
+      
+    // })
     //.addIndicators() 
     .addTo(controller);
 new ScrollMagic.Scene({ triggerElement: "#about" })
     .setClassToggle("#about-li", "active-me")
+    // .on("enter leave",function(){     
+    //     $('#about-link').focus();
+    // })
     //.addIndicators() 
     .addTo(controller);
 
