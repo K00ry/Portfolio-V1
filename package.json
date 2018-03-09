@@ -24,6 +24,10 @@
     "tether-1.3.3": "^1.3.3",
     "webpack": "^3.5.6"
   },
+  "scripts": {
+    "dev": "webpack -d webpack --watch",
+    "prod": "webpack -p"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/K00ry/Portfolio-V1.git"
